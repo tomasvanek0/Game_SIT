@@ -9,6 +9,6 @@ public class SpawnPoints : MonoBehaviour
 
     public Transform GetRandomSpawnPoint()
     {
-        return spawnpoints[Random.Range(0, spawnpoints.Length)];
+        return spawnpoints[UnityEngine.Random.Range(0, spawnpoints.Length)];
     }
 }

@@ -9,7 +9,10 @@ public class RandomSpawn : MonoBehaviour
     private float innerSpawnTime = 0;
     private SpawnPoints spawnPoints;
 
-    public Transform enemyParrent;
+    public Transform[] spawnpoints;
+
+
+    public Transform objectParrent;
 
     void Start()
     {
@@ -29,11 +32,16 @@ public class RandomSpawn : MonoBehaviour
 
     private void SpawnObject()
     {
-        GameObject gameObjectFall = Instantiate(prefabToSpawn, spawnPoints.GetRandomSpawnPoint());
-        gameObjectFall.transform.SetParent(enemyParrent);
+        GameObject gameObjectFall = Instantiate(prefabToSpawn, GetRandomSpawnPoint());
+        gameObjectFall.transform.SetParent(objectParrent);
         
     }
 
-    
+    public Transform GetRandomSpawnPoint()
+    {
+        return spawnpoints[UnityEngine.Random.Range(0, spawnpoints.Length)];
+    }
+
+
 
 }
