@@ -4,33 +4,44 @@ using UnityEngine;
 
 public class RandomSpawn : MonoBehaviour
 {
-    public GameObject prefabToSpawn;   
-    public GameObject[] spawnPoints;
-    private float speed;
+    public GameObject prefabToSpawn;
+    public float spawnTime;
+    private float innerSpawnTime = 0;
+    private SpawnPoints spawnPoints;
+
+    public Transform[] spawnpoints;
+
+
+    public Transform objectParrent;
 
     void Start()
     {
-        SpawnAtRandomPoint();
-        speed = Random.Range(1f, 5f);
+        spawnPoints = FindObjectOfType<SpawnPoints>();
     }
 
     void Update()
     {
-        if (transform.position.y < -7f)
+        if (innerSpawnTime >= spawnTime)
         {
-            Destroy(gameObject);
-            SpawnAtRandomPoint();
+            SpawnObject();
+            innerSpawnTime = 0;
         }
+
+        innerSpawnTime += Time.deltaTime;
     }
 
-    void SpawnAtRandomPoint()
+    private void SpawnObject()
     {
-        
-
-        int index = Random.Range(0, spawnPoints.Length);
-
-        GameObject newObj = Instantiate(prefabToSpawn, spawnPoints[index].position, Quaternion.identity);
-
+        GameObject gameObjectFall = Instantiate(prefabToSpawn, GetRandomSpawnPoint());
+        gameObjectFall.transform.SetParent(objectParrent);
         
     }
+
+    public Transform GetRandomSpawnPoint()
+    {
+        return spawnpoints[UnityEngine.Random.Range(0, spawnpoints.Length)];
+    }
+
+
+
 }

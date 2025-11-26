@@ -1,16 +1,20 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+//using System.Collections;
+//using System.Collections.Generic;
+//using UnityEngine;
 
 //public class FallingObject : MonoBehaviour
 //{
-//    
+//    private float speed;
+//    private GameManager gameManager;
+//    private float RandomX;
+//    Rigidbody rb;
 
 //    void Start()
 //    {
 //        gameManager = FindObjectOfType<GameManager>();
 //        speed = Random.Range(1f, 5f);
-
+//        RandomX = Random.Range(-10f, 10f);
+//        transform.position = new Vector2(RandomX, 6);
 
 //        rb = GetComponent<Rigidbody>();
 //        rb.isKinematic = true;

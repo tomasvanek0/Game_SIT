@@ -1,21 +1,40 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MovemetPlayer : MonoBehaviour
 {
     public float speed;
+    private float Movement;
 
-    // Start is called before the first frame update
-    
+    public float maxX;
 
-    // Update is called once per frame
+    public float minX;
+
+
     void Update()
     {
-        float moveLR = Input.GetAxis("Horizontal");
+        Movement = Input.GetAxis("Horizontal");
+        Vector2 pohyb = new Vector2(Movement * speed *  Time.deltaTime, 0);
+        transform.Translate(pohyb);
 
-        Vector2 move = new Vector2 (moveLR, 0);
+        float currentX = transform.position.x;
 
-        transform.Translate(move * speed * Time.deltaTime);
+        // Vypoèítáme novou pozici X, která nesmí být menší než minX a vìtší než maxX
+        float clampedX = Mathf.Clamp(currentX, minX, maxX);
+
+        // Pokud je aktuální pozice X mimo povolený rozsah, nastavíme ji zpìt na hranici.
+        // Tím se pohyb zablokuje, dokud se nezaènete hýbat zpìt.
+        transform.position = new Vector2(clampedX, transform.position.y);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Debug.LogWarning("náraz");
+        Destroy(collision.gameObject);
+        Destroy(gameObject);
+        SceneManager.LoadScene("Menu");
     }
 }
