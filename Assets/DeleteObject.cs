@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class DeleteObject : MonoBehaviour
 {
+    public float Health;
 
-    // Update is called once per frame
     void Update()
     {
         if (transform.position.y < -7f)
@@ -13,4 +13,5 @@ public class DeleteObject : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
 }
