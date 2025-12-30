@@ -34,7 +34,6 @@ public class MovemetPlayer : MonoBehaviour
     {
         Debug.LogWarning("náraz");
         Destroy(collision.gameObject);
-        Destroy(gameObject);
         SceneManager.LoadScene("Menu");
     }
 }
