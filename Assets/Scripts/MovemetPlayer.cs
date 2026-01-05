@@ -13,6 +13,8 @@ public class MovemetPlayer : MonoBehaviour
 
     public float minX;
 
+    public float score;
+    private float timer;
 
     void Update()
     {
@@ -22,19 +24,30 @@ public class MovemetPlayer : MonoBehaviour
 
         float currentX = transform.position.x;
 
-        // Vypoèítáme novou pozici X, která nesmí být menší než minX a vìtší než maxX
         float clampedX = Mathf.Clamp(currentX, minX, maxX);
 
-        // Pokud je aktuální pozice X mimo povolený rozsah, nastavíme ji zpìt na hranici.
-        // Tím se pohyb zablokuje, dokud se nezaènete hýbat zpìt.
         transform.position = new Vector2(clampedX, transform.position.y);
+
+        timer += Time.deltaTime;
+
+        if (timer >= 1f)
+        {
+            timer -= 1f;
+            ScoreCount();
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Debug.LogWarning("náraz");
         Destroy(collision.gameObject);
-        Destroy(gameObject);
-        SceneManager.LoadScene("Menu");
+        score -= 500;
+        
+    }
+    void ScoreCount()
+    {
+        score += 100;
+        Debug.Log(score);
+
     }
 }
