@@ -865,10 +865,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab4eedfa5a0bd354aa146c78cf0eb284, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnpoints:
-  - {fileID: 2142969978}
-  - {fileID: 1644842359}
-  - {fileID: 1340674352}
+  spawnpoints: []
 --- !u!1 &1765816537
 GameObject:
   m_ObjectHideFlags: 0
@@ -878,7 +875,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1765816538}
-  - component: {fileID: 1765816539}
   m_Layer: 0
   m_Name: objectParrent
   m_TagString: Untagged
@@ -901,19 +897,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 42436507}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1765816539
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1765816537}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4bbc9552be817be4e9dddce390b2794d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Health: 0
 --- !u!1 &2142969976
 GameObject:
   m_ObjectHideFlags: 0
