@@ -153,7 +153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefabToSpawn: {fileID: 1465558201100875569, guid: 70579ee8bd48e1c42823ba29bf1bceb5, type: 3}
-  spawnTime: 1
+  spawnTime: 3
   spawnpoints:
   - {fileID: 2142969978}
   - {fileID: 1644842359}
