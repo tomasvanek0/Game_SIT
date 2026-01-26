@@ -2509,6 +2509,7 @@ MonoBehaviour:
   CustomerParrent: {fileID: 555779157}
   currentCustomer: {fileID: 0}
   numberOfCustomers: 10
+  i: 0
 --- !u!1 &792995462
 GameObject:
   m_ObjectHideFlags: 0

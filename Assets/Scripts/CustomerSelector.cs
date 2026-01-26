@@ -11,13 +11,13 @@ public class CustomerSelector : MonoBehaviour
     public Transform CustomerParrent;
     public GameObject currentCustomer;
     public int numberOfCustomers;
-    public int i = 0;
 
 
 
     private void Start()
     {
         StartCoroutine(SpawnCustomers());
+        
     }
 
     IEnumerator SpawnCustomers()
@@ -33,10 +33,11 @@ public class CustomerSelector : MonoBehaviour
                 i++;
             }
 
-            yield return new WaitForSeconds(0); // èekání mezi pokusy
+            yield return new WaitForSeconds(1); // èekání mezi pokusy
         }
 
         Debug.LogWarning("Spawn dokonèen");
+        SceneManager.LoadScene("Game1");
     }
 
 
