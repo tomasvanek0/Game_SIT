@@ -10,28 +10,46 @@ public class CustomerSelector : MonoBehaviour
     public Transform CustomerPoint;
     public Transform CustomerParrent;
     public GameObject currentCustomer;
-    public float numberOfCustomers;
+    public int numberOfCustomers;
+    public int i = 0;
 
 
 
-
-
-    private void Update()
+    private void Start()
     {
-        
+        StartCoroutine(SpawnCustomers());
+    }
+
+    IEnumerator SpawnCustomers()
+    {
+        int targetCustomers = GetRandomCustomerNumber();
+        int i = 0;
+
+        while (i < targetCustomers)
+        {
             if (!isOccupied)
             {
                 SpawnCustomer();
+                i++;
             }
 
-        
+            yield return new WaitForSeconds(0); // èekání mezi pokusy
+        }
 
+        Debug.LogWarning("Spawn dokonèen");
     }
 
 
 
 
-    public GameObject GetRandomCustomer()
+
+    public int GetRandomCustomerNumber()
+    {
+             return (Random.Range(1, 12));
+    }
+
+
+public GameObject GetRandomCustomer()
     {
         return Customers[UnityEngine.Random.Range(0, Customers.Length)];
         
