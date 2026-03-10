@@ -11,6 +11,7 @@ public class CustomerSelector : MonoBehaviour
     public Transform CustomerParrent;
     public GameObject currentCustomer;
     public int numberOfCustomers;
+    public Customer customer;
 
 
 
@@ -25,7 +26,7 @@ public class CustomerSelector : MonoBehaviour
         int targetCustomers = GetRandomCustomerNumber();
         int i = 0;
 
-        while (i < targetCustomers)
+        while (i <= targetCustomers)
         {
             if (!isOccupied)
             {
@@ -35,9 +36,11 @@ public class CustomerSelector : MonoBehaviour
 
             yield return new WaitForSeconds(1); // èekání mezi pokusy
         }
-
+        yield return new WaitUntil(() => isOccupied == false);
+        yield return new WaitForSeconds(1);
         Debug.LogWarning("Spawn dokonèen");
         SceneManager.LoadScene("Game1");
+        
     }
 
 
@@ -50,25 +53,28 @@ public class CustomerSelector : MonoBehaviour
     }
 
 
-public GameObject GetRandomCustomer()
+    public GameObject GetRandomCustomer()
     {
         return Customers[UnityEngine.Random.Range(0, Customers.Length)];
-        
+
+
     }
+
+    
 
     public void SpawnCustomer()
     {
         
         
-            isOccupied = true;
-            GameObject Customer = GetRandomCustomer();
-            if (Customer != null)
-            {
-                currentCustomer = Instantiate(Customer, CustomerPoint);
-                currentCustomer.transform.SetParent(CustomerParrent);
-                currentCustomer.tag = "Customer";
+        isOccupied = true;
+        GameObject Customer = GetRandomCustomer();
+        if (Customer != null)
+        {
+            currentCustomer = Instantiate(Customer, CustomerPoint);
+            currentCustomer.transform.SetParent(CustomerParrent);
+            currentCustomer.tag = "Customer";
 
-            }
+        }
         
     }
 }

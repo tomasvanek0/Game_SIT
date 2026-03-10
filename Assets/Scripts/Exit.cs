@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class Exit : MonoBehaviour
 {
-    public bool pause;
+    public bool pause = false;
     public GameObject prefab;
     public GameObject spawnMenu;
 
@@ -20,6 +20,7 @@ public class Exit : MonoBehaviour
                 Time.timeScale = 0f;
                 pause = true;
                 spawnMenu = Instantiate(prefab);
+                Debug.Log("pauza esc");
 
 
             }
@@ -28,6 +29,7 @@ public class Exit : MonoBehaviour
                 Time.timeScale = 1f;
                 pause = false;
                 Destroy(spawnMenu);
+                Debug.Log("konec pauza esc");
             }
         }
     }

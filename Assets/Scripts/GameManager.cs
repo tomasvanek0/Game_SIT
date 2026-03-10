@@ -4,19 +4,24 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public Transform Circle;
-    public int circleCount = 6;
+    public static GameManager Instance;
 
-    void Start()
+    public float score;
+    private void Awake()
     {
-        for (int i = 0; i < circleCount; i++)
+        if (Instance == null)
         {
-            CreateCircle();
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
         }
     }
 
-    public void CreateCircle()
+    public void AddScore(int amount)
     {
-        Instantiate(Circle);
+        score += amount;
     }
 }

@@ -13,8 +13,9 @@ public class MovemetPlayer : MonoBehaviour
 
     public float minX;
 
-    public float score;
     private float timer;
+
+    public GameManager gameManager;
 
     void Update()
     {
@@ -41,13 +42,13 @@ public class MovemetPlayer : MonoBehaviour
     {
         Debug.LogWarning("náraz");
         Destroy(collision.gameObject);
-        score -= 500;
-        
+        GameManager.Instance.AddScore(-500);
+
     }
     void ScoreCount()
     {
-        score += 100;
-        Debug.Log(score);
+        GameManager.Instance.AddScore(100);
+        Debug.Log(gameManager.score);
 
     }
 }
