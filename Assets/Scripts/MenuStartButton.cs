@@ -16,4 +16,9 @@ public class MenuStartButton : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void Tutorial(string Scene1)
+    {
+        SceneManager.LoadScene(Scene1);
+    }
 }

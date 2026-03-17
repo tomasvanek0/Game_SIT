@@ -41,7 +41,13 @@ public class SeatSelector : MonoBehaviour
         }
         else
         {
-            Debug.Log("Tady sedìt nemùže");
+            customer.transform.position = transform.position;
+
+            seat.isSeatOccupied = true;
+            customerSelector.isOccupied = false;
+            customerSelector.currentCustomer = null;
+
+            Debug.Log("Sedl si, ale špatnì");
             GameManager.Instance.AddScore(-500);
         }
     }
