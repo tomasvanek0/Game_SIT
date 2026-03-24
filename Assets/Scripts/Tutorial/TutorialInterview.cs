@@ -40,7 +40,7 @@ public class TutorialInterview : MonoBehaviour
         else
         {
             dialogue.text = "Konec Dialogu";
-            SceneManager.LoadScene("Game1");
+            SceneManager.LoadScene("Game1 - Tut");
 
         }
         

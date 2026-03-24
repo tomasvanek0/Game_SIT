@@ -132,10 +132,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 42436507}
-  - component: {fileID: 42436506}
-  - component: {fileID: 42436508}
-  - component: {fileID: 42436510}
-  - component: {fileID: 42436509}
+  - component: {fileID: 42436512}
+  - component: {fileID: 42436511}
+  - component: {fileID: 42436513}
+  - component: {fileID: 42436514}
+  - component: {fileID: 42436515}
   m_Layer: 0
   m_Name: ObjectManager
   m_TagString: Untagged
@@ -143,25 +144,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &42436506
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 42436505}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ecd5293eea5f204ab4f2e75f70c5c28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefabToSpawn: {fileID: 1465558201100875569, guid: 70579ee8bd48e1c42823ba29bf1bceb5, type: 3}
-  spawnTime: 3
-  spawnpoints:
-  - {fileID: 2142969978}
-  - {fileID: 1644842359}
-  - {fileID: 1340674352}
-  objectParrent: {fileID: 1765816538}
 --- !u!4 &42436507
 Transform:
   m_ObjectHideFlags: 0
@@ -179,7 +161,7 @@ Transform:
   - {fileID: 1659676875}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &42436508
+--- !u!114 &42436511
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -188,11 +170,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 42436505}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40bbe6f07e096fc49b766cd094eb2455, type: 3}
+  m_Script: {fileID: 11500000, guid: eb06b74fc369a72498ef1b0116ac2a32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  time: 0
---- !u!114 &42436509
+  exit: {fileID: 0}
+  spawnMenu: {fileID: 175405111897539569, guid: 9ee1b550627a2a04ab363e90e35b3281, type: 3}
+--- !u!114 &42436512
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -201,13 +184,32 @@ MonoBehaviour:
   m_GameObject: {fileID: 42436505}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 82092f3003499de4896aa71b71be99ab, type: 3}
+  m_Script: {fileID: 11500000, guid: 6d1bbf7060fc50c4ab34e7f2ce9d7e88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabToSpawn: {fileID: 1465558201100875569, guid: 70579ee8bd48e1c42823ba29bf1bceb5, type: 3}
+  spawnTime: 5
+  spawnpoints:
+  - {fileID: 2142969978}
+  - {fileID: 1644842359}
+  - {fileID: 1340674352}
+  objectParrent: {fileID: 1765816538}
+--- !u!114 &42436513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42436505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c338a61c776ec5e4d99a56808d272e9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   pause: 0
   prefab: {fileID: 175405111897539569, guid: 9ee1b550627a2a04ab363e90e35b3281, type: 3}
   spawnMenu: {fileID: 0}
---- !u!114 &42436510
+--- !u!114 &42436514
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -216,11 +218,44 @@ MonoBehaviour:
   m_GameObject: {fileID: 42436505}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c075851c5e91e24186c9d4164345bc9, type: 3}
+  m_Script: {fileID: 11500000, guid: 245cac17ebb35924fa234124582af080, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  exit: {fileID: 42436509}
-  spawnMenu: {fileID: 175405111897539569, guid: 9ee1b550627a2a04ab363e90e35b3281, type: 3}
+  time: 0
+  dialogue: {fileID: 0}
+  gameManager: {fileID: 748157778}
+  monologs2: []
+  dialogueNumberkonv2: 0
+  dialoguePocetkonv2: 3
+  dialogueBar: {fileID: 0}
+  secondDialogue: {fileID: 0}
+--- !u!114 &42436515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42436505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 119473c947872534680268d76ad09167, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue: {fileID: 762645244}
+  gameManager: {fileID: 748157778}
+  monologs:
+  - "V\u011Bt\u0161inou na zast\xE1vce nabere\u0161 zpo\u017Ed\u011Bn\xED."
+  - "Mus\xED\u0161 to zpo\u017Ed\u011Bn\xED n\u011Bjak dohnat a k tomu bude zapot\u0159eb\xED
+    rychl\xE1 j\xEDzda."
+  - "Pro pot\u0159eby tutori\xE1lu je rychlost zpomalena, ale v re\xE1ln\xE9m provozu
+    bde\u0161 muset rychle reagovat na auta p\u0159ed tebou."
+  - "Tv\xFDm c\xEDlem je do \u017E\xE1dn\xE9ho auta nenarazit, jinak ztrat\xED\u0161
+    podstatnou \u010D\xE1st sk\xF3re."
+  - "Pojede\u0161 mnohem rychleji ne\u017E auta, tak\u017Ee bude\u0161 muset p\u0159edj\xED\u017Ed\u011Bt."
+  - "Poj\u010F si to vyzkou\u0161et."
+  dialogueNumber: 5
+  dialoguePocet: 0
+  dialogueBar: {fileID: 0}
 --- !u!1 &202334968
 GameObject:
   m_ObjectHideFlags: 0
@@ -661,6 +696,63 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &614451711
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1895595867997235748, guid: fce5cdffcd08eba48b6c8abf1081cde7, type: 3}
+      propertyPath: m_Name
+      value: Capsule
+      objectReference: {fileID: 0}
+    - target: {fileID: 8160156318978876164, guid: fce5cdffcd08eba48b6c8abf1081cde7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.295266
+      objectReference: {fileID: 0}
+    - target: {fileID: 8160156318978876164, guid: fce5cdffcd08eba48b6c8abf1081cde7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.15582561
+      objectReference: {fileID: 0}
+    - target: {fileID: 8160156318978876164, guid: fce5cdffcd08eba48b6c8abf1081cde7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8160156318978876164, guid: fce5cdffcd08eba48b6c8abf1081cde7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8160156318978876164, guid: fce5cdffcd08eba48b6c8abf1081cde7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8160156318978876164, guid: fce5cdffcd08eba48b6c8abf1081cde7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8160156318978876164, guid: fce5cdffcd08eba48b6c8abf1081cde7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8160156318978876164, guid: fce5cdffcd08eba48b6c8abf1081cde7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8160156318978876164, guid: fce5cdffcd08eba48b6c8abf1081cde7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8160156318978876164, guid: fce5cdffcd08eba48b6c8abf1081cde7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fce5cdffcd08eba48b6c8abf1081cde7, type: 3}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -788,6 +880,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &762645244 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1377859606762907715, guid: fce5cdffcd08eba48b6c8abf1081cde7, type: 3}
+  m_PrefabInstance: {fileID: 614451711}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &832039197
 GameObject:
   m_ObjectHideFlags: 0
@@ -1147,3 +1250,4 @@ SceneRoots:
   - {fileID: 407691298}
   - {fileID: 748157779}
   - {fileID: 600963087}
+  - {fileID: 614451711}

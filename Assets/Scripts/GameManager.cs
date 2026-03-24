@@ -24,4 +24,9 @@ public class GameManager : MonoBehaviour
     {
         score += amount;
     }
+
+    public void RemoveScore()
+    {
+        score = 0;
+    }
 }
