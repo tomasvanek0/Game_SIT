@@ -40,7 +40,6 @@ public class Game1Interview : MonoBehaviour
         }
         else
         {
-            dialogue.text = "Konec Dialogu";
             Time.timeScale = 1f;
             Destroy(dialogueBar);
 
