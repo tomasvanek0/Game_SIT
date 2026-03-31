@@ -4,32 +4,33 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
 
-
-public class TutorialInterview : MonoBehaviour
+public class LogicalGameInterview : MonoBehaviour
 {
 
     public TMP_Text dialogue;
-    public int dialoguePocet = 6;
+    public int dialoguePocet = 14;
     public int dialogueNumber = 0;
     public string[] monologs;
+    public GameObject dialogueBar;
 
-   void Start()
+    // Start is called before the first frame update
+    void Start()
     {
         dialogueNumber = 0;
-
+        Time.timeScale = 0;
         dialogue.text = "Pro zahájení konverzace stiskni mezerník";
-  
     }
+
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             NextDialogue();
             dialogueNumber += 1;
-            
+
         }
-        
-        
+
+
     }
 
     void NextDialogue()
@@ -40,11 +41,12 @@ public class TutorialInterview : MonoBehaviour
         }
         else
         {
-            SceneManager.LoadScene("LogicalGame-Tut");
-            dialogueNumber = 0;
+            Time.timeScale = 1f;
+            Destroy(dialogueBar);
+
+
 
         }
-        
+
     }
-   
 }

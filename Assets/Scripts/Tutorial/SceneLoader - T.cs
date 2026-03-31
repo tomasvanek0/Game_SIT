@@ -26,17 +26,8 @@ public class SceneLoaderT : MonoBehaviour
     IEnumerator AfterTime()
     {
         yield return new WaitForSeconds(time); // 5 sekund
-        Instantiate(secondDialogue);
-        Time.timeScale = 0;
-
-        yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Space));
-        dialogue.text = monologs2[0];
-        yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Space));
-        dialogue.text = monologs2[1];
-        yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Space));
-        dialogue.text = monologs2[2];
-        yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Space));
         SceneManager.LoadScene("Menu");
+        GameManager.Instance.RemoveScore();
 
 
     }

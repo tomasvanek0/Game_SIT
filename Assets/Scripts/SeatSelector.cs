@@ -10,31 +10,31 @@ public class SeatSelector : MonoBehaviour
     public bool AlleyAlo;
 
 
-    public CustomerSelector customerSelector;
+    public CustomerSelectorT customerSelectorT;
     public Seat seat;
 
     private void Awake()
     {
-        if (customerSelector == null)
-            customerSelector = FindObjectOfType<CustomerSelector>();
+        if (customerSelectorT == null)
+            customerSelectorT = FindObjectOfType<CustomerSelectorT>();
 
         seat = GetComponent<Seat>();
     }
 
     private void OnMouseDown()
     {
-        if (customerSelector.currentCustomer == null)
+        if (customerSelectorT.currentCustomer == null)
             return;
 
-        Customer customer = customerSelector.currentCustomer.GetComponent<Customer>();
+        Customer customer = customerSelectorT.currentCustomer.GetComponent<Customer>();
 
         if (seat.CanSit(customer))
         {
             customer.transform.position = transform.position;
 
             seat.isSeatOccupied = true;
-            customerSelector.isOccupied = false;
-            customerSelector.currentCustomer = null;
+            customerSelectorT.isOccupied = false;
+            customerSelectorT.currentCustomer = null;
 
             Debug.Log("Zákazník si sedl");
             GameManager.Instance.AddScore(200);
@@ -44,8 +44,8 @@ public class SeatSelector : MonoBehaviour
             customer.transform.position = transform.position;
 
             seat.isSeatOccupied = true;
-            customerSelector.isOccupied = false;
-            customerSelector.currentCustomer = null;
+            customerSelectorT.isOccupied = false;
+            customerSelectorT.currentCustomer = null;
 
             Debug.Log("Sedl si, ale špatnì");
             GameManager.Instance.AddScore(-500);

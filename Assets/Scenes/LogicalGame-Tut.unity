@@ -226,7 +226,7 @@ MonoBehaviour:
   BackAlo: 0
   FrontAlo: 0
   AlleyAlo: 0
-  customerSelector: {fileID: 751496908}
+  customerSelectorT: {fileID: 0}
   seat: {fileID: 0}
 --- !u!135 &12236237
 SphereCollider:
@@ -371,7 +371,7 @@ MonoBehaviour:
   BackAlo: 0
   FrontAlo: 0
   AlleyAlo: 0
-  customerSelector: {fileID: 751496908}
+  customerSelectorT: {fileID: 0}
   seat: {fileID: 0}
 --- !u!135 &46928990
 SphereCollider:
@@ -516,7 +516,7 @@ MonoBehaviour:
   BackAlo: 0
   FrontAlo: 0
   AlleyAlo: 0
-  customerSelector: {fileID: 751496908}
+  customerSelectorT: {fileID: 0}
   seat: {fileID: 0}
 --- !u!135 &136670123
 SphereCollider:
@@ -661,7 +661,7 @@ MonoBehaviour:
   BackAlo: 0
   FrontAlo: 0
   AlleyAlo: 0
-  customerSelector: {fileID: 751496908}
+  customerSelectorT: {fileID: 0}
   seat: {fileID: 0}
 --- !u!135 &158089812
 SphereCollider:
@@ -806,7 +806,7 @@ MonoBehaviour:
   BackAlo: 0
   FrontAlo: 0
   AlleyAlo: 0
-  customerSelector: {fileID: 751496908}
+  customerSelectorT: {fileID: 0}
   seat: {fileID: 0}
 --- !u!135 &167766438
 SphereCollider:
@@ -1019,7 +1019,7 @@ MonoBehaviour:
   BackAlo: 0
   FrontAlo: 0
   AlleyAlo: 0
-  customerSelector: {fileID: 751496908}
+  customerSelectorT: {fileID: 0}
   seat: {fileID: 0}
 --- !u!135 &213296650
 SphereCollider:
@@ -1164,7 +1164,7 @@ MonoBehaviour:
   BackAlo: 0
   FrontAlo: 0
   AlleyAlo: 0
-  customerSelector: {fileID: 751496908}
+  customerSelectorT: {fileID: 0}
   seat: {fileID: 0}
 --- !u!135 &262045274
 SphereCollider:
@@ -1309,7 +1309,7 @@ MonoBehaviour:
   BackAlo: 0
   FrontAlo: 0
   AlleyAlo: 0
-  customerSelector: {fileID: 751496908}
+  customerSelectorT: {fileID: 0}
   seat: {fileID: 0}
 --- !u!135 &271639527
 SphereCollider:
@@ -1640,7 +1640,7 @@ MonoBehaviour:
   BackAlo: 0
   FrontAlo: 0
   AlleyAlo: 0
-  customerSelector: {fileID: 751496908}
+  customerSelectorT: {fileID: 0}
   seat: {fileID: 0}
 --- !u!135 &285393021
 SphereCollider:
@@ -1785,7 +1785,7 @@ MonoBehaviour:
   BackAlo: 0
   FrontAlo: 0
   AlleyAlo: 0
-  customerSelector: {fileID: 751496908}
+  customerSelectorT: {fileID: 0}
   seat: {fileID: 0}
 --- !u!135 &313655425
 SphereCollider:
@@ -1930,7 +1930,7 @@ MonoBehaviour:
   BackAlo: 0
   FrontAlo: 0
   AlleyAlo: 0
-  customerSelector: {fileID: 751496908}
+  customerSelectorT: {fileID: 0}
   seat: {fileID: 0}
 --- !u!135 &354263703
 SphereCollider:
@@ -2075,7 +2075,7 @@ MonoBehaviour:
   BackAlo: 0
   FrontAlo: 0
   AlleyAlo: 0
-  customerSelector: {fileID: 751496908}
+  customerSelectorT: {fileID: 0}
   seat: {fileID: 0}
 --- !u!135 &376518967
 SphereCollider:
@@ -2220,7 +2220,7 @@ MonoBehaviour:
   BackAlo: 0
   FrontAlo: 0
   AlleyAlo: 0
-  customerSelector: {fileID: 751496908}
+  customerSelectorT: {fileID: 0}
   seat: {fileID: 0}
 --- !u!135 &386036533
 SphereCollider:
@@ -2365,7 +2365,7 @@ MonoBehaviour:
   BackAlo: 0
   FrontAlo: 0
   AlleyAlo: 0
-  customerSelector: {fileID: 751496908}
+  customerSelectorT: {fileID: 0}
   seat: {fileID: 0}
 --- !u!135 &416964535
 SphereCollider:
@@ -2510,7 +2510,7 @@ MonoBehaviour:
   BackAlo: 0
   FrontAlo: 0
   AlleyAlo: 0
-  customerSelector: {fileID: 751496908}
+  customerSelectorT: {fileID: 0}
   seat: {fileID: 0}
 --- !u!135 &431390979
 SphereCollider:
@@ -2655,7 +2655,7 @@ MonoBehaviour:
   BackAlo: 0
   FrontAlo: 0
   AlleyAlo: 0
-  customerSelector: {fileID: 751496908}
+  customerSelectorT: {fileID: 0}
   seat: {fileID: 0}
 --- !u!135 &487115309
 SphereCollider:
@@ -2831,7 +2831,7 @@ MonoBehaviour:
   BackAlo: 0
   FrontAlo: 0
   AlleyAlo: 0
-  customerSelector: {fileID: 751496908}
+  customerSelectorT: {fileID: 0}
   seat: {fileID: 0}
 --- !u!135 &570008782
 SphereCollider:
@@ -2976,7 +2976,7 @@ MonoBehaviour:
   BackAlo: 0
   FrontAlo: 0
   AlleyAlo: 0
-  customerSelector: {fileID: 751496908}
+  customerSelectorT: {fileID: 0}
   seat: {fileID: 0}
 --- !u!135 &596041986
 SphereCollider:
@@ -3121,7 +3121,7 @@ MonoBehaviour:
   BackAlo: 0
   FrontAlo: 0
   AlleyAlo: 0
-  customerSelector: {fileID: 751496908}
+  customerSelectorT: {fileID: 0}
   seat: {fileID: 0}
 --- !u!135 &722273680
 SphereCollider:
@@ -3172,8 +3172,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 751496906}
-  - component: {fileID: 751496908}
   - component: {fileID: 751496907}
+  - component: {fileID: 751496909}
   m_Layer: 6
   m_Name: CustomerSpawn
   m_TagString: Untagged
@@ -3217,7 +3217,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.28541374
   m_Center: {x: 0.040347576, y: 0.052761793, z: 0}
---- !u!114 &751496908
+--- !u!114 &751496909
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3226,23 +3226,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 751496905}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 32dc50b05c8ad604489fb80084bd3cb1, type: 3}
+  m_Script: {fileID: 11500000, guid: d0610d18d40674e4cbfb5542e80b8fb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Customers:
   - {fileID: 4382294668672705786, guid: 203efebc156c1a54280b977a6d430140, type: 3}
   - {fileID: 4382294668672705786, guid: 569aa6e253a150f43860e8845e0ff4dc, type: 3}
+  - {fileID: 4382294668672705786, guid: 187f91d8269c61e4c925f3436e48533e, type: 3}
   - {fileID: 4382294668672705786, guid: 21808834cc9c8d84e8b92f99af4bd5d8, type: 3}
   - {fileID: 8515084764356551442, guid: c2e81ee329834ab41b8907039099db80, type: 3}
   - {fileID: 8515084764356551442, guid: 763b76b736edee24a96a970f2b81dec8, type: 3}
   - {fileID: 8515084764356551442, guid: 98488c2ecd527aa42b569c78b75011a0, type: 3}
   - {fileID: 8515084764356551442, guid: 5c714a3516f3b314d9a63488c4f1e7bc, type: 3}
+  - {fileID: 1061751784450382271, guid: 38c4da669cdb638449e31fed594300a6, type: 3}
   - {fileID: 1061751784450382271, guid: 0512c337dc8fdb742a6158eefb9d855c, type: 3}
   - {fileID: 1061751784450382271, guid: a0613164cd884214197b064412bd6e2f, type: 3}
   - {fileID: 1061751784450382271, guid: ee23bd33ec21fbc468a4030996f7a08d, type: 3}
   - {fileID: 6481915028060189711, guid: 72623397ff7da014d88c1449334f514b, type: 3}
   - {fileID: 6481915028060189711, guid: 5b819c1464db25347a87353d0aaf4c16, type: 3}
   - {fileID: 6481915028060189711, guid: d22aebb2fe551534ca4ac85ed45ba4df, type: 3}
+  - {fileID: 6481915028060189711, guid: 900176e1289235d44bc7ef7da1be00bd, type: 3}
   isOccupied: 0
   CustomerPoint: {fileID: 751496906}
   CustomerParrent: {fileID: 555779157}
@@ -3553,7 +3556,7 @@ MonoBehaviour:
   BackAlo: 0
   FrontAlo: 0
   AlleyAlo: 0
-  customerSelector: {fileID: 751496908}
+  customerSelectorT: {fileID: 0}
   seat: {fileID: 0}
 --- !u!135 &844754378
 SphereCollider:
@@ -3698,7 +3701,7 @@ MonoBehaviour:
   BackAlo: 0
   FrontAlo: 0
   AlleyAlo: 0
-  customerSelector: {fileID: 751496908}
+  customerSelectorT: {fileID: 0}
   seat: {fileID: 0}
 --- !u!135 &936660786
 SphereCollider:
@@ -3843,7 +3846,7 @@ MonoBehaviour:
   BackAlo: 0
   FrontAlo: 0
   AlleyAlo: 0
-  customerSelector: {fileID: 751496908}
+  customerSelectorT: {fileID: 0}
   seat: {fileID: 0}
 --- !u!135 &974169563
 SphereCollider:
@@ -3988,7 +3991,7 @@ MonoBehaviour:
   BackAlo: 0
   FrontAlo: 0
   AlleyAlo: 0
-  customerSelector: {fileID: 751496908}
+  customerSelectorT: {fileID: 0}
   seat: {fileID: 0}
 --- !u!135 &1024899848
 SphereCollider:
@@ -4133,7 +4136,7 @@ MonoBehaviour:
   BackAlo: 0
   FrontAlo: 0
   AlleyAlo: 0
-  customerSelector: {fileID: 751496908}
+  customerSelectorT: {fileID: 0}
   seat: {fileID: 0}
 --- !u!135 &1039562599
 SphereCollider:
@@ -4362,7 +4365,7 @@ MonoBehaviour:
   BackAlo: 0
   FrontAlo: 0
   AlleyAlo: 0
-  customerSelector: {fileID: 751496908}
+  customerSelectorT: {fileID: 0}
   seat: {fileID: 0}
 --- !u!135 &1088182536
 SphereCollider:
@@ -4644,7 +4647,7 @@ MonoBehaviour:
   BackAlo: 0
   FrontAlo: 0
   AlleyAlo: 0
-  customerSelector: {fileID: 751496908}
+  customerSelectorT: {fileID: 0}
   seat: {fileID: 0}
 --- !u!135 &1113686336
 SphereCollider:
@@ -4789,7 +4792,7 @@ MonoBehaviour:
   BackAlo: 0
   FrontAlo: 0
   AlleyAlo: 0
-  customerSelector: {fileID: 751496908}
+  customerSelectorT: {fileID: 0}
   seat: {fileID: 0}
 --- !u!135 &1122165721
 SphereCollider:
@@ -4934,7 +4937,7 @@ MonoBehaviour:
   BackAlo: 0
   FrontAlo: 0
   AlleyAlo: 0
-  customerSelector: {fileID: 751496908}
+  customerSelectorT: {fileID: 0}
   seat: {fileID: 0}
 --- !u!135 &1176402012
 SphereCollider:
@@ -5079,7 +5082,7 @@ MonoBehaviour:
   BackAlo: 0
   FrontAlo: 0
   AlleyAlo: 0
-  customerSelector: {fileID: 751496908}
+  customerSelectorT: {fileID: 0}
   seat: {fileID: 0}
 --- !u!135 &1277286497
 SphereCollider:
@@ -5224,7 +5227,7 @@ MonoBehaviour:
   BackAlo: 0
   FrontAlo: 0
   AlleyAlo: 0
-  customerSelector: {fileID: 751496908}
+  customerSelectorT: {fileID: 0}
   seat: {fileID: 0}
 --- !u!135 &1299442490
 SphereCollider:
@@ -5414,7 +5417,7 @@ MonoBehaviour:
   BackAlo: 0
   FrontAlo: 0
   AlleyAlo: 0
-  customerSelector: {fileID: 751496908}
+  customerSelectorT: {fileID: 0}
   seat: {fileID: 0}
 --- !u!135 &1460699972
 SphereCollider:
@@ -5559,7 +5562,7 @@ MonoBehaviour:
   BackAlo: 0
   FrontAlo: 0
   AlleyAlo: 0
-  customerSelector: {fileID: 751496908}
+  customerSelectorT: {fileID: 0}
   seat: {fileID: 0}
 --- !u!135 &1524433301
 SphereCollider:
@@ -5704,7 +5707,7 @@ MonoBehaviour:
   BackAlo: 0
   FrontAlo: 0
   AlleyAlo: 0
-  customerSelector: {fileID: 751496908}
+  customerSelectorT: {fileID: 0}
   seat: {fileID: 0}
 --- !u!135 &1526437765
 SphereCollider:
@@ -5746,6 +5749,17 @@ MonoBehaviour:
   isSeatOccupied: 0
   neighbourDistance: 0.8
   neighbours: []
+--- !u!114 &1549269890 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1377859606762907715, guid: fce5cdffcd08eba48b6c8abf1081cde7, type: 3}
+  m_PrefabInstance: {fileID: 2134419589}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1573108417
 GameObject:
   m_ObjectHideFlags: 0
@@ -5849,7 +5863,7 @@ MonoBehaviour:
   BackAlo: 0
   FrontAlo: 0
   AlleyAlo: 0
-  customerSelector: {fileID: 751496908}
+  customerSelectorT: {fileID: 0}
   seat: {fileID: 0}
 --- !u!135 &1573108421
 SphereCollider:
@@ -5994,7 +6008,7 @@ MonoBehaviour:
   BackAlo: 0
   FrontAlo: 0
   AlleyAlo: 0
-  customerSelector: {fileID: 751496908}
+  customerSelectorT: {fileID: 0}
   seat: {fileID: 0}
 --- !u!135 &1624765457
 SphereCollider:
@@ -6139,7 +6153,7 @@ MonoBehaviour:
   BackAlo: 0
   FrontAlo: 0
   AlleyAlo: 0
-  customerSelector: {fileID: 751496908}
+  customerSelectorT: {fileID: 0}
   seat: {fileID: 0}
 --- !u!135 &1659525489
 SphereCollider:
@@ -6284,7 +6298,7 @@ MonoBehaviour:
   BackAlo: 0
   FrontAlo: 0
   AlleyAlo: 0
-  customerSelector: {fileID: 751496908}
+  customerSelectorT: {fileID: 0}
   seat: {fileID: 0}
 --- !u!135 &1700685801
 SphereCollider:
@@ -6429,7 +6443,7 @@ MonoBehaviour:
   BackAlo: 0
   FrontAlo: 0
   AlleyAlo: 0
-  customerSelector: {fileID: 751496908}
+  customerSelectorT: {fileID: 0}
   seat: {fileID: 0}
 --- !u!135 &1701197155
 SphereCollider:
@@ -6574,7 +6588,7 @@ MonoBehaviour:
   BackAlo: 0
   FrontAlo: 0
   AlleyAlo: 0
-  customerSelector: {fileID: 751496908}
+  customerSelectorT: {fileID: 0}
   seat: {fileID: 0}
 --- !u!135 &1745989004
 SphereCollider:
@@ -6719,7 +6733,7 @@ MonoBehaviour:
   BackAlo: 0
   FrontAlo: 0
   AlleyAlo: 0
-  customerSelector: {fileID: 751496908}
+  customerSelectorT: {fileID: 0}
   seat: {fileID: 0}
 --- !u!135 &1756026269
 SphereCollider:
@@ -6761,6 +6775,11 @@ MonoBehaviour:
   isSeatOccupied: 0
   neighbourDistance: 0.8
   neighbours: []
+--- !u!1 &1758338141 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1895595867997235748, guid: fce5cdffcd08eba48b6c8abf1081cde7, type: 3}
+  m_PrefabInstance: {fileID: 2134419589}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1776429178
 GameObject:
   m_ObjectHideFlags: 0
@@ -6864,7 +6883,7 @@ MonoBehaviour:
   BackAlo: 0
   FrontAlo: 0
   AlleyAlo: 0
-  customerSelector: {fileID: 751496908}
+  customerSelectorT: {fileID: 0}
   seat: {fileID: 0}
 --- !u!135 &1776429182
 SphereCollider:
@@ -7009,7 +7028,7 @@ MonoBehaviour:
   BackAlo: 0
   FrontAlo: 0
   AlleyAlo: 0
-  customerSelector: {fileID: 751496908}
+  customerSelectorT: {fileID: 0}
   seat: {fileID: 0}
 --- !u!135 &1793805229
 SphereCollider:
@@ -7154,7 +7173,7 @@ MonoBehaviour:
   BackAlo: 0
   FrontAlo: 0
   AlleyAlo: 0
-  customerSelector: {fileID: 751496908}
+  customerSelectorT: {fileID: 0}
   seat: {fileID: 0}
 --- !u!135 &1885306193
 SphereCollider:
@@ -7299,7 +7318,7 @@ MonoBehaviour:
   BackAlo: 0
   FrontAlo: 0
   AlleyAlo: 0
-  customerSelector: {fileID: 751496908}
+  customerSelectorT: {fileID: 0}
   seat: {fileID: 0}
 --- !u!135 &1978616329
 SphereCollider:
@@ -7444,7 +7463,7 @@ MonoBehaviour:
   BackAlo: 0
   FrontAlo: 0
   AlleyAlo: 0
-  customerSelector: {fileID: 751496908}
+  customerSelectorT: {fileID: 0}
   seat: {fileID: 0}
 --- !u!135 &2001913242
 SphereCollider:
@@ -7589,7 +7608,7 @@ MonoBehaviour:
   BackAlo: 0
   FrontAlo: 0
   AlleyAlo: 0
-  customerSelector: {fileID: 751496908}
+  customerSelectorT: {fileID: 0}
   seat: {fileID: 0}
 --- !u!135 &2005006001
 SphereCollider:
@@ -7643,6 +7662,7 @@ GameObject:
   - component: {fileID: 2034470470}
   - component: {fileID: 2034470471}
   - component: {fileID: 2034470472}
+  - component: {fileID: 2034470473}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -7707,6 +7727,45 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   score: 0
+--- !u!114 &2034470473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2034470468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1725ad8494931f5498a26e393fcabbe0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue: {fileID: 1549269890}
+  dialoguePocet: 14
+  dialogueNumber: 0
+  monologs:
+  - "V\xEDt\xE1m t\u011B uvnit\u0159 autobusu."
+  - "Nen\xED to nic extra, ale nic lep\u0161\xEDho si dovolit nem\u016F\u017Eeme."
+  - "Ka\u017Edop\xE1dn\u011B, jdeme t\u011B to nau\u010Dit."
+  - "Jakmile p\u0159ijede\u0161 na zast\xE1vku, tak se ti automaticky otev\u0159ou
+    dve\u0159e a za\u010Dnou nastupovat cestuj\xEDc\xED."
+  - "Ka\u017Ed\xFD cestuj\xEDc\xED bude \u010Dekat tak dlohou u dev\u0159\xED, dokud
+    ho s\xE1m neusad\xED\u0161."
+  - "Nem\u016F\u017Ee\u0161 ho v\u0161ak usadit, kde chce\u0161."
+  - "Ka\u017Ed\xFD z\xE1kazn\xEDk m\xE1 sv\xE9 po\u017Eadavky a ty je mus\xED\u0161
+    vysly\u0161et, jinak p\u0159ijde\u0161 o sk\xF3re."
+  - "Pokyny v\u017Edy dostane\u0161 na za\u010D\xE1tku kola a mus\xED\u0161 si je
+    zapamatovat."
+  - "Pro pot\u0159eby v\xFDuky jsou jednosuch\xE9, ale nebude to v\u017Edy tak jednoduch\xE9. "
+  - "\u010Cerven\xED cestuj\xEDc\xED jsou velmi hlu\u010Dn\xED, a proto je v\u017Edy
+    posa\u010F do zadn\xED \u010D\xE1sti autobusu."
+  - "Naopak zelen\xFDm z\xE1kazn\xEDk\u016Fm b\xFDv\xE1 velmi \u0161patn\u011B a
+    je dobr\xE9, aby sed\u011Bli v p\u0159edn\xED \u010D\xE1sti."
+  - "Modr\xFD z\xE1kazn\xEDk je typick\xFD smutn\xFD introvert a chce sed\u011Bt
+    u okna."
+  - "No a posledn\xED \u017Elut\xFD cestuj\xEDc\xED se boj\xED, \u017Ee nestihne
+    vystoupit na zast\xE1vce, proto chce sed\u011Bt v uli\u010Dce."
+  - "Poj\u010F si to vyzkou\u0161et."
+  dialogueBar: {fileID: 1758338141}
 --- !u!1 &2091348579
 GameObject:
   m_ObjectHideFlags: 0
@@ -7810,7 +7869,7 @@ MonoBehaviour:
   BackAlo: 0
   FrontAlo: 0
   AlleyAlo: 0
-  customerSelector: {fileID: 751496908}
+  customerSelectorT: {fileID: 0}
   seat: {fileID: 0}
 --- !u!135 &2091348583
 SphereCollider:
@@ -7955,7 +8014,7 @@ MonoBehaviour:
   BackAlo: 0
   FrontAlo: 0
   AlleyAlo: 0
-  customerSelector: {fileID: 751496908}
+  customerSelectorT: {fileID: 0}
   seat: {fileID: 0}
 --- !u!135 &2092915046
 SphereCollider:
@@ -8100,7 +8159,7 @@ MonoBehaviour:
   BackAlo: 0
   FrontAlo: 0
   AlleyAlo: 0
-  customerSelector: {fileID: 751496908}
+  customerSelectorT: {fileID: 0}
   seat: {fileID: 0}
 --- !u!135 &2115253304
 SphereCollider:
@@ -8142,6 +8201,75 @@ MonoBehaviour:
   isSeatOccupied: 0
   neighbourDistance: 0.8
   neighbours: []
+--- !u!1001 &2134419589
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1895595867997235748, guid: fce5cdffcd08eba48b6c8abf1081cde7, type: 3}
+      propertyPath: m_Name
+      value: Capsule
+      objectReference: {fileID: 0}
+    - target: {fileID: 5620677677328195484, guid: fce5cdffcd08eba48b6c8abf1081cde7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 209
+      objectReference: {fileID: 0}
+    - target: {fileID: 5620677677328195484, guid: fce5cdffcd08eba48b6c8abf1081cde7, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 144.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8160156318978876164, guid: fce5cdffcd08eba48b6c8abf1081cde7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.465143
+      objectReference: {fileID: 0}
+    - target: {fileID: 8160156318978876164, guid: fce5cdffcd08eba48b6c8abf1081cde7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.10246422
+      objectReference: {fileID: 0}
+    - target: {fileID: 8160156318978876164, guid: fce5cdffcd08eba48b6c8abf1081cde7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8160156318978876164, guid: fce5cdffcd08eba48b6c8abf1081cde7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8160156318978876164, guid: fce5cdffcd08eba48b6c8abf1081cde7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8160156318978876164, guid: fce5cdffcd08eba48b6c8abf1081cde7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8160156318978876164, guid: fce5cdffcd08eba48b6c8abf1081cde7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8160156318978876164, guid: fce5cdffcd08eba48b6c8abf1081cde7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8160156318978876164, guid: fce5cdffcd08eba48b6c8abf1081cde7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8160156318978876164, guid: fce5cdffcd08eba48b6c8abf1081cde7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9103691141345539704, guid: fce5cdffcd08eba48b6c8abf1081cde7, type: 3}
+      propertyPath: m_SortingOrder
+      value: 240
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fce5cdffcd08eba48b6c8abf1081cde7, type: 3}
 --- !u!1 &2140478444
 GameObject:
   m_ObjectHideFlags: 0
@@ -8245,7 +8373,7 @@ MonoBehaviour:
   BackAlo: 0
   FrontAlo: 0
   AlleyAlo: 0
-  customerSelector: {fileID: 751496908}
+  customerSelectorT: {fileID: 0}
   seat: {fileID: 0}
 --- !u!135 &2140478448
 SphereCollider:
@@ -8300,3 +8428,4 @@ SceneRoots:
   - {fileID: 208704147}
   - {fileID: 282322623}
   - {fileID: 1325735849}
+  - {fileID: 2134419589}

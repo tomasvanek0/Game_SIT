@@ -369,7 +369,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue: {fileID: 565565905}
-  dialoguePocet: 5
+  dialoguePocet: 6
   dialogueNumber: 0
   monologs:
   - "Zdrav\xEDm, J\xE1 jsem \u0160t\u011Bfan."
@@ -406,13 +406,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Capsule
       objectReference: {fileID: 0}
+    - target: {fileID: 5620677677328195484, guid: fce5cdffcd08eba48b6c8abf1081cde7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 187
+      objectReference: {fileID: 0}
+    - target: {fileID: 5620677677328195484, guid: fce5cdffcd08eba48b6c8abf1081cde7, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 144.6
+      objectReference: {fileID: 0}
     - target: {fileID: 8160156318978876164, guid: fce5cdffcd08eba48b6c8abf1081cde7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.04
+      value: 6.62
       objectReference: {fileID: 0}
     - target: {fileID: 8160156318978876164, guid: fce5cdffcd08eba48b6c8abf1081cde7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.31
+      value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: 8160156318978876164, guid: fce5cdffcd08eba48b6c8abf1081cde7, type: 3}
       propertyPath: m_LocalPosition.z

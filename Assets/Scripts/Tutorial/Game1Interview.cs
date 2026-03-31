@@ -16,6 +16,8 @@ public class Game1Interview : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        dialogueNumber = 0;
+
         Time.timeScale = 0;
         dialogue.text = "Nyní ti ukážu, jak bude probíhat cesta na zastávky.";
     }                                                       
@@ -42,6 +44,7 @@ public class Game1Interview : MonoBehaviour
         {
             Time.timeScale = 1f;
             Destroy(dialogueBar);
+            dialogueNumber = 0;
 
             
 

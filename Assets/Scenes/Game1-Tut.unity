@@ -227,8 +227,8 @@ MonoBehaviour:
   monologs2: []
   dialogueNumberkonv2: 0
   dialoguePocetkonv2: 3
-  dialogueBar: {fileID: 0}
-  secondDialogue: {fileID: 0}
+  dialogueBar: {fileID: 1820653512}
+  secondDialogue: {fileID: 1895595867997235748, guid: fce5cdffcd08eba48b6c8abf1081cde7, type: 3}
 --- !u!114 &42436515
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -253,9 +253,9 @@ MonoBehaviour:
     podstatnou \u010D\xE1st sk\xF3re."
   - "Pojede\u0161 mnohem rychleji ne\u017E auta, tak\u017Ee bude\u0161 muset p\u0159edj\xED\u017Ed\u011Bt."
   - "Poj\u010F si to vyzkou\u0161et."
-  dialogueNumber: 5
-  dialoguePocet: 0
-  dialogueBar: {fileID: 0}
+  dialogueNumber: 0
+  dialoguePocet: 5
+  dialogueBar: {fileID: 760756753}
 --- !u!1 &202334968
 GameObject:
   m_ObjectHideFlags: 0
@@ -708,13 +708,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Capsule
       objectReference: {fileID: 0}
+    - target: {fileID: 5620677677328195484, guid: fce5cdffcd08eba48b6c8abf1081cde7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 184
+      objectReference: {fileID: 0}
     - target: {fileID: 8160156318978876164, guid: fce5cdffcd08eba48b6c8abf1081cde7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.295266
+      value: 6.78
       objectReference: {fileID: 0}
     - target: {fileID: 8160156318978876164, guid: fce5cdffcd08eba48b6c8abf1081cde7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.15582561
+      value: -0.01
       objectReference: {fileID: 0}
     - target: {fileID: 8160156318978876164, guid: fce5cdffcd08eba48b6c8abf1081cde7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -880,6 +884,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &760756753 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1895595867997235748, guid: fce5cdffcd08eba48b6c8abf1081cde7, type: 3}
+  m_PrefabInstance: {fileID: 614451711}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &762645244 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1377859606762907715, guid: fce5cdffcd08eba48b6c8abf1081cde7, type: 3}
@@ -1207,6 +1216,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 42436507}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1820653512 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7297124969052984345, guid: fce5cdffcd08eba48b6c8abf1081cde7, type: 3}
+  m_PrefabInstance: {fileID: 614451711}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2142969976
 GameObject:
   m_ObjectHideFlags: 0
