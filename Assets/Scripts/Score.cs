@@ -5,19 +5,19 @@ using TMPro;
 
 public class Score : MonoBehaviour
 {
-    public MovemetPlayer movemetPlayer;
+    public GameManager gameManager;
     public TMP_Text scoreText;
    
     // Start is called before the first frame update
     void Start()
     {
-        scoreText.text = movemetPlayer.score.ToString();
+        scoreText.text = GameManager.Instance.score.ToString();
     }
 
     // Update is called once per frame
     void Update()
     {
-       scoreText.text = movemetPlayer.score.ToString();
+       scoreText.text = GameManager.Instance.score.ToString();
 
     }
 

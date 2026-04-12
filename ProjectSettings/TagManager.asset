@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Auto
+  - Customer
+  - Plno
   layers:
   - Default
   - TransparentFX
@@ -12,7 +14,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Customer
   - 
   - 
   - 
@@ -41,4 +43,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: LevelSelector
+    uniqueID: 4151257935
+    locked: 0
+  - name: Menu
+    uniqueID: 1807621199
     locked: 0

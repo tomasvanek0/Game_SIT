@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 8182341231625165888}
   - component: {fileID: 7626756604466145505}
   - component: {fileID: 7112194944919821727}
-  - component: {fileID: 7712280357998593969}
-  - component: {fileID: 1559558171328693143}
+  - component: {fileID: 2249810330824863274}
+  - component: {fileID: -5886610378340754511}
   m_Layer: 0
   m_Name: Circle
   m_TagString: Auto
@@ -160,7 +160,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 5
---- !u!114 &7712280357998593969
+--- !u!114 &2249810330824863274
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -169,20 +169,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 1465558201100875569}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4bbc9552be817be4e9dddce390b2794d, type: 3}
+  m_Script: {fileID: 11500000, guid: d498516a490cb58429795ba6e9bcb74d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
+--- !u!114 &-5886610378340754511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1465558201100875569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec193795e33c641489c59148edbcfe85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Health: 15
---- !u!114 &1559558171328693143
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1465558201100875569}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: caa9c343ef782b349a201230ea005f1c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 8
