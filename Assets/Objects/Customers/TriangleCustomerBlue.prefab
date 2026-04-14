@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 6453092518294241542}
   - component: {fileID: -5760680054187667341}
   - component: {fileID: 4582533979103834854}
+  - component: {fileID: 3790004907018394959}
+  - component: {fileID: -9012292315653739606}
   m_Layer: 6
   m_Name: TriangleCustomerBlue
   m_TagString: Customer
@@ -133,3 +135,46 @@ MonoBehaviour:
   Square: 0
   Triangle: 1
   Diamond: 0
+  seatSelector: {fileID: 0}
+--- !u!114 &3790004907018394959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6481915028060189711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 466fc56f108e3dd4ea6a530f4a60132e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Red: 0
+  Green: 0
+  Blue: 1
+  Yellow: 0
+  Round: 0
+  Square: 0
+  Triangle: 1
+  Diamond: 0
+  seatSelector: {fileID: 0}
+--- !u!114 &-9012292315653739606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6481915028060189711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64ecfd9c61a856a4caa85a93691613b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Red: 0
+  Green: 0
+  Blue: 1
+  Yellow: 0
+  Round: 0
+  Square: 0
+  Triangle: 1
+  Diamond: 0
+  seatSelector: {fileID: 0}

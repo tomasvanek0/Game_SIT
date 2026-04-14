@@ -5,11 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class MenuStartButton : MonoBehaviour
 {
-    public string Scene1;
+    
+    public GameObject LevelSelector;
+    public GameObject uvodniMenu;
+    GameManager gameManager;
 
-    public void StartGame(string Scene1)
+ 
+
+    public void StartGame()
     {
-        SceneManager.LoadScene(Scene1);
+        Instantiate(LevelSelector);
+        Destroy(uvodniMenu);
     }
 
     public void ExitGame()
@@ -20,5 +26,12 @@ public class MenuStartButton : MonoBehaviour
     public void Tutorial(string Scene1)
     {
         SceneManager.LoadScene(Scene1);
+    }
+
+    public void ExitLevelSelector()
+    {
+        Destroy(LevelSelector);
+        Instantiate(uvodniMenu);
+        
     }
 }

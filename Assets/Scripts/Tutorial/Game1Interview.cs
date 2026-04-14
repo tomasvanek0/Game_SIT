@@ -26,6 +26,7 @@ public class Game1Interview : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            Time.timeScale = 0;
             NextDialogue();
             dialogueNumber += 1;
 

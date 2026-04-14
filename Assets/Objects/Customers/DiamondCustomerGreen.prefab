@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 6594926793424077355}
   - component: {fileID: -9135821645172068020}
   - component: {fileID: 7178125606812954712}
+  - component: {fileID: -1875170707355531778}
+  - component: {fileID: -8920786148794959023}
   m_Layer: 0
   m_Name: DiamondCustomerGreen
   m_TagString: Untagged
@@ -106,8 +108,7 @@ MonoBehaviour:
   Square: 0
   Triangle: 0
   Diamond: 1
-  customerSelector: {fileID: 0}
-  CurrentColor: {fileID: 0}
+  seatSelector: {fileID: 0}
 --- !u!50 &7178125606812954712
 Rigidbody2D:
   serializedVersion: 4
@@ -135,3 +136,45 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &-1875170707355531778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8515084764356551442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 466fc56f108e3dd4ea6a530f4a60132e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Red: 0
+  Green: 1
+  Blue: 0
+  Yellow: 0
+  Round: 0
+  Square: 0
+  Triangle: 0
+  Diamond: 1
+  seatSelector: {fileID: 0}
+--- !u!114 &-8920786148794959023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8515084764356551442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64ecfd9c61a856a4caa85a93691613b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Red: 0
+  Green: 1
+  Blue: 0
+  Yellow: 0
+  Round: 0
+  Square: 0
+  Triangle: 0
+  Diamond: 1
+  seatSelector: {fileID: 0}

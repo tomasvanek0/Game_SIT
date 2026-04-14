@@ -20,7 +20,7 @@ public class SceneLoaderT : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        time = Random.Range(5, 10);
+        time = Random.Range(20, 21);
         StartCoroutine(AfterTime());
     }
     IEnumerator AfterTime()

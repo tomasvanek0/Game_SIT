@@ -15,6 +15,7 @@ public class CustomerSelector : MonoBehaviour
 
 
 
+
     private void Start()
     {
         StartCoroutine(SpawnCustomers());

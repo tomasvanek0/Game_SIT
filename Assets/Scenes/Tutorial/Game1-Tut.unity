@@ -254,7 +254,7 @@ MonoBehaviour:
   - "Pojede\u0161 mnohem rychleji ne\u017E auta, tak\u017Ee bude\u0161 muset p\u0159edj\xED\u017Ed\u011Bt."
   - "Poj\u010F si to vyzkou\u0161et."
   dialogueNumber: 0
-  dialoguePocet: 5
+  dialoguePocet: 6
   dialogueBar: {fileID: 760756753}
 --- !u!1 &202334968
 GameObject:

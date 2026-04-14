@@ -15,12 +15,18 @@ EditorBuildSettings:
     path: Assets/Scenes/LogicalGame.unity
     guid: 92a418a7d358a674697b9efef2f93954
   - enabled: 1
-    path: Assets/Scenes/TutorialScene.unity
+    path: Assets/Scenes/Tutorial/TutorialScene.unity
     guid: f7caf9e81488bab4b9b06a036d4a4342
   - enabled: 1
-    path: Assets/Scenes/Game1-Tut.unity
+    path: Assets/Scenes/Tutorial/Game1-Tut.unity
     guid: 5cdaca0270945eb4099805b792b153e8
   - enabled: 1
-    path: Assets/Scenes/LogicalGame-Tut.unity
+    path: Assets/Scenes/Tutorial/LogicalGame-Tut.unity
     guid: ee0acb8119a57284895f35f5a27b74e1
+  - enabled: 1
+    path: Assets/Scenes/Level 1/Game1 - 1.unity
+    guid: e98ced62a7bcab049afd470f98bdf818
+  - enabled: 1
+    path: Assets/Scenes/Level2/LogicalGame - 2.unity
+    guid: 24b39f63a6dafc34e9d6c3010db46747
   m_configObjects: {}

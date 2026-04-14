@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SeatSelector : MonoBehaviour
+public class SeatSelector1 : MonoBehaviour
 {
     public bool WinAlo;
     public bool BackAlo;
@@ -10,31 +10,31 @@ public class SeatSelector : MonoBehaviour
     public bool AlleyAlo;
 
 
-    public CustomerSelectorT customerSelectorT;
-    public Seat seat;
+    public CustomerSelector1 customerSelector1;
+    public Seat1 seat;
 
     private void Awake()
     {
-        if (customerSelectorT == null)
-            customerSelectorT = FindObjectOfType<CustomerSelectorT>();
+        if (customerSelector1 == null)
+            customerSelector1 = FindObjectOfType<CustomerSelector1>();
 
-        seat = GetComponent<Seat>();
+        seat = GetComponent<Seat1>();
     }
 
     private void OnMouseDown()
     {
-        if (customerSelectorT.currentCustomer == null)
+        if (customerSelector1.currentCustomer == null)
             return;
 
-        Customer customer = customerSelectorT.currentCustomer.GetComponent<Customer>();
+        Customer customer = customerSelector1.currentCustomer.GetComponent<Customer>();
 
         if (seat.CanSit(customer))
         {
             customer.transform.position = transform.position;
 
             seat.isSeatOccupied = true;
-            customerSelectorT.isOccupied = false;
-            customerSelectorT.currentCustomer = null;
+            customerSelector1.isOccupied = false;
+            customerSelector1.currentCustomer = null;
 
             Debug.Log("Zákazník si sedl");
             GameManager.Instance.AddScore(200);
@@ -44,8 +44,8 @@ public class SeatSelector : MonoBehaviour
             customer.transform.position = transform.position;
 
             seat.isSeatOccupied = true;
-            customerSelectorT.isOccupied = false;
-            customerSelectorT.currentCustomer = null;
+            customerSelector1.isOccupied = false;
+            customerSelector1.currentCustomer = null;
 
             Debug.Log("Sedl si, ale špatnì");
             GameManager.Instance.AddScore(-500);

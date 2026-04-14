@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
+
+    public Level1 level1;
     public float time;
 
     // Start is called before the first frame update
@@ -17,7 +19,7 @@ public class SceneLoader : MonoBehaviour
     IEnumerator AfterTime()
     {
         yield return new WaitForSeconds(time); // 5 sekund
-        SceneManager.LoadScene("LogicalGame");
+        level1.LoadAnotherScene("LogicalGame");
     }
 
 }

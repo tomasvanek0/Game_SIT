@@ -17,7 +17,7 @@ public class Customer : MonoBehaviour
 
 
 
-    public SeatSelector seatSelector;
+    public SeatSelector1 seatSelector;
     public void TypeCustomer()
     {
         if (Red)
