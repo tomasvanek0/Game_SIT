@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader1 : MonoBehaviour
 {
-
+    public Seats seats;
     public Level1 level1;
     public float time;
 
@@ -26,6 +26,7 @@ public class SceneLoader1 : MonoBehaviour
         else
         {
             Level1.Instance.LoadAnotherScene("LogicalGame - 1");
+            Seats.Instance.gameObject.SetActive(true);
         }
         
     }

@@ -6,6 +6,7 @@ public class LoadLogic : MonoBehaviour
 {
 
     public static LoadLogic Instance;
+    public GameObject parrent;
 
     void Awake()
     {
@@ -23,6 +24,8 @@ public class LoadLogic : MonoBehaviour
     public void LoadLogicGame()
     {
         Level1.Instance.LoadAnotherScene("Game1 - 1");
+        parrent.SetActive(false);
+        
     }
 
     

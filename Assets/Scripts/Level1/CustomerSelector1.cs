@@ -6,18 +6,31 @@ using UnityEngine.SceneManagement;
 public class CustomerSelector1 : MonoBehaviour
 {
     public GameObject[] Customers;
+    public CustomerParrent customerParrent;
+    public Transform CustomerParrent;
     public bool isOccupied = false;
     public Transform CustomerPoint;
-    public Transform CustomerParrent;
     public GameObject currentCustomer;
     public int numberOfCustomers;
     public Customer customer;
     public Level1 level1;
     public LoadLogic loadLogic;
 
+    public static CustomerSelector1 Instance;
+    void Awake()
+    {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
+        Instance = this;
+        CustomerParrent = CustomerParrent.Instance;
+    }
 
 
-    private void Start()
+private void Start()
     {
         StartCoroutine(SpawnCustomers());
         

@@ -23,18 +23,18 @@ public class SeatSelector1 : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if (customerSelector1.currentCustomer == null)
+        if (CustomerSelector1.Instance.currentCustomer == null)
             return;
 
-        Customer customer = customerSelector1.currentCustomer.GetComponent<Customer>();
+        Customer customer = CustomerSelector1.Instance.currentCustomer.GetComponent<Customer>();
 
         if (seat.CanSit(customer))
         {
             customer.transform.position = transform.position;
 
             seat.isSeatOccupied = true;
-            customerSelector1.isOccupied = false;
-            customerSelector1.currentCustomer = null;
+            CustomerSelector1.Instance.isOccupied = false;
+            CustomerSelector1.Instance.currentCustomer = null;
 
             Debug.Log("Zákazník si sedl");
             GameManager.Instance.AddScore(200);
@@ -44,8 +44,8 @@ public class SeatSelector1 : MonoBehaviour
             customer.transform.position = transform.position;
 
             seat.isSeatOccupied = true;
-            customerSelector1.isOccupied = false;
-            customerSelector1.currentCustomer = null;
+            CustomerSelector1.Instance.isOccupied = false;
+            CustomerSelector1.Instance.currentCustomer = null;
 
             Debug.Log("Sedl si, ale špatnì");
             GameManager.Instance.AddScore(-500);
