@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SeatSelector : MonoBehaviour
+public class SeatSelector1 : MonoBehaviour
 {
     public bool WinAlo;
     public bool BackAlo;

@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 5949998460960182111}
   - component: {fileID: 4639623869867073821}
   - component: {fileID: -5883244110731705817}
+  - component: {fileID: 3530496652632715788}
+  - component: {fileID: -2760485104976059005}
   m_Layer: 6
   m_Name: SquareCustomerGreen
   m_TagString: Customer
@@ -133,5 +135,46 @@ MonoBehaviour:
   Square: 1
   Triangle: 0
   Diamond: 0
-  customerSelector: {fileID: 0}
-  CurrentColor: {fileID: 0}
+  seatSelector: {fileID: 0}
+--- !u!114 &3530496652632715788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1061751784450382271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 466fc56f108e3dd4ea6a530f4a60132e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Red: 0
+  Green: 1
+  Blue: 0
+  Yellow: 0
+  Round: 0
+  Square: 1
+  Triangle: 0
+  Diamond: 0
+  seatSelector: {fileID: 0}
+--- !u!114 &-2760485104976059005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1061751784450382271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64ecfd9c61a856a4caa85a93691613b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Red: 0
+  Green: 1
+  Blue: 0
+  Yellow: 0
+  Round: 0
+  Square: 1
+  Triangle: 0
+  Diamond: 0
+  seatSelector: {fileID: 0}

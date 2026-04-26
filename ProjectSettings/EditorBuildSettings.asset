@@ -27,6 +27,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 1/Game1 - 1.unity
     guid: e98ced62a7bcab049afd470f98bdf818
   - enabled: 1
-    path: Assets/Scenes/Level 1/LogicalGame - 1.unity
+    path: Assets/Scenes/Level2/LogicalGame - 2.unity
     guid: 24b39f63a6dafc34e9d6c3010db46747
   m_configObjects: {}

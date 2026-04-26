@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class Customer : MonoBehaviour
+public class CustomerT : MonoBehaviour
 {
     public bool Red;
     public bool Green;
@@ -17,7 +17,7 @@ public class Customer : MonoBehaviour
 
 
 
-    public SeatSelector1 seatSelector;
+    public SeatSelectorT seatSelector;
     public void TypeCustomer()
     {
         if (Red)

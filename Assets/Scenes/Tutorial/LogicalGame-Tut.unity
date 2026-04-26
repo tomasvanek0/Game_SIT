@@ -133,8 +133,8 @@ GameObject:
   m_Component:
   - component: {fileID: 12236234}
   - component: {fileID: 12236235}
-  - component: {fileID: 12236236}
   - component: {fileID: 12236237}
+  - component: {fileID: 12236239}
   - component: {fileID: 12236238}
   m_Layer: 0
   m_Name: Seat8
@@ -210,24 +210,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &12236236
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 12236233}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 520041eb10d1bde489960019a17d7a3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WinAlo: 0
-  BackAlo: 0
-  FrontAlo: 0
-  AlleyAlo: 0
-  customerSelectorT: {fileID: 0}
-  seat: {fileID: 0}
 --- !u!135 &12236237
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -258,7 +240,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 12236233}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc456be526669048aca061752d77f39, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c22d228e39450946bb3c8f70ffba1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WinAlo: 0
+  BackAlo: 0
+  FrontAlo: 0
+  AlleyAlo: 0
+  customerSelector1: {fileID: 751496909}
+  seat: {fileID: 0}
+--- !u!114 &12236239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 12236233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3b21638a0166e46a518755752d3f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   back: 0
@@ -278,8 +278,8 @@ GameObject:
   m_Component:
   - component: {fileID: 46928987}
   - component: {fileID: 46928988}
-  - component: {fileID: 46928989}
   - component: {fileID: 46928990}
+  - component: {fileID: 46928992}
   - component: {fileID: 46928991}
   m_Layer: 0
   m_Name: Seat2
@@ -355,24 +355,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &46928989
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 46928986}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 520041eb10d1bde489960019a17d7a3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WinAlo: 0
-  BackAlo: 0
-  FrontAlo: 0
-  AlleyAlo: 0
-  customerSelectorT: {fileID: 0}
-  seat: {fileID: 0}
 --- !u!135 &46928990
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -403,7 +385,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 46928986}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc456be526669048aca061752d77f39, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c22d228e39450946bb3c8f70ffba1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WinAlo: 0
+  BackAlo: 0
+  FrontAlo: 0
+  AlleyAlo: 0
+  customerSelector1: {fileID: 751496909}
+  seat: {fileID: 0}
+--- !u!114 &46928992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 46928986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3b21638a0166e46a518755752d3f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   back: 0
@@ -423,8 +423,8 @@ GameObject:
   m_Component:
   - component: {fileID: 136670120}
   - component: {fileID: 136670121}
-  - component: {fileID: 136670122}
   - component: {fileID: 136670123}
+  - component: {fileID: 136670125}
   - component: {fileID: 136670124}
   m_Layer: 0
   m_Name: Seat16
@@ -500,24 +500,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &136670122
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 136670119}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 520041eb10d1bde489960019a17d7a3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WinAlo: 0
-  BackAlo: 0
-  FrontAlo: 0
-  AlleyAlo: 0
-  customerSelectorT: {fileID: 0}
-  seat: {fileID: 0}
 --- !u!135 &136670123
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -548,7 +530,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 136670119}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc456be526669048aca061752d77f39, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c22d228e39450946bb3c8f70ffba1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WinAlo: 0
+  BackAlo: 0
+  FrontAlo: 0
+  AlleyAlo: 0
+  customerSelector1: {fileID: 751496909}
+  seat: {fileID: 0}
+--- !u!114 &136670125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 136670119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3b21638a0166e46a518755752d3f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   back: 0
@@ -568,8 +568,8 @@ GameObject:
   m_Component:
   - component: {fileID: 158089809}
   - component: {fileID: 158089810}
-  - component: {fileID: 158089811}
   - component: {fileID: 158089812}
+  - component: {fileID: 158089814}
   - component: {fileID: 158089813}
   m_Layer: 0
   m_Name: Seat23
@@ -645,24 +645,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &158089811
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 158089808}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 520041eb10d1bde489960019a17d7a3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WinAlo: 0
-  BackAlo: 0
-  FrontAlo: 0
-  AlleyAlo: 0
-  customerSelectorT: {fileID: 0}
-  seat: {fileID: 0}
 --- !u!135 &158089812
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -693,7 +675,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 158089808}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc456be526669048aca061752d77f39, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c22d228e39450946bb3c8f70ffba1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WinAlo: 0
+  BackAlo: 0
+  FrontAlo: 0
+  AlleyAlo: 0
+  customerSelector1: {fileID: 751496909}
+  seat: {fileID: 0}
+--- !u!114 &158089814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 158089808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3b21638a0166e46a518755752d3f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   back: 1
@@ -713,8 +713,8 @@ GameObject:
   m_Component:
   - component: {fileID: 167766435}
   - component: {fileID: 167766436}
-  - component: {fileID: 167766437}
   - component: {fileID: 167766438}
+  - component: {fileID: 167766440}
   - component: {fileID: 167766439}
   m_Layer: 0
   m_Name: Seat7
@@ -790,24 +790,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &167766437
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 167766434}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 520041eb10d1bde489960019a17d7a3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WinAlo: 0
-  BackAlo: 0
-  FrontAlo: 0
-  AlleyAlo: 0
-  customerSelectorT: {fileID: 0}
-  seat: {fileID: 0}
 --- !u!135 &167766438
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -838,7 +820,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 167766434}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc456be526669048aca061752d77f39, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c22d228e39450946bb3c8f70ffba1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WinAlo: 0
+  BackAlo: 0
+  FrontAlo: 0
+  AlleyAlo: 0
+  customerSelector1: {fileID: 751496909}
+  seat: {fileID: 0}
+--- !u!114 &167766440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 167766434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3b21638a0166e46a518755752d3f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   back: 0
@@ -926,8 +926,8 @@ GameObject:
   m_Component:
   - component: {fileID: 213296647}
   - component: {fileID: 213296648}
-  - component: {fileID: 213296649}
   - component: {fileID: 213296650}
+  - component: {fileID: 213296652}
   - component: {fileID: 213296651}
   m_Layer: 0
   m_Name: Seat13
@@ -1003,24 +1003,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &213296649
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 213296646}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 520041eb10d1bde489960019a17d7a3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WinAlo: 0
-  BackAlo: 0
-  FrontAlo: 0
-  AlleyAlo: 0
-  customerSelectorT: {fileID: 0}
-  seat: {fileID: 0}
 --- !u!135 &213296650
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1051,7 +1033,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 213296646}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc456be526669048aca061752d77f39, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c22d228e39450946bb3c8f70ffba1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WinAlo: 0
+  BackAlo: 0
+  FrontAlo: 0
+  AlleyAlo: 0
+  customerSelector1: {fileID: 751496909}
+  seat: {fileID: 0}
+--- !u!114 &213296652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 213296646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3b21638a0166e46a518755752d3f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   back: 0
@@ -1071,8 +1071,8 @@ GameObject:
   m_Component:
   - component: {fileID: 262045271}
   - component: {fileID: 262045272}
-  - component: {fileID: 262045273}
   - component: {fileID: 262045274}
+  - component: {fileID: 262045276}
   - component: {fileID: 262045275}
   m_Layer: 0
   m_Name: Seat19
@@ -1148,24 +1148,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &262045273
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 262045270}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 520041eb10d1bde489960019a17d7a3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WinAlo: 0
-  BackAlo: 0
-  FrontAlo: 0
-  AlleyAlo: 0
-  customerSelectorT: {fileID: 0}
-  seat: {fileID: 0}
 --- !u!135 &262045274
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1196,7 +1178,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 262045270}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc456be526669048aca061752d77f39, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c22d228e39450946bb3c8f70ffba1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WinAlo: 0
+  BackAlo: 0
+  FrontAlo: 0
+  AlleyAlo: 0
+  customerSelector1: {fileID: 751496909}
+  seat: {fileID: 0}
+--- !u!114 &262045276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262045270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3b21638a0166e46a518755752d3f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   back: 0
@@ -1216,8 +1216,8 @@ GameObject:
   m_Component:
   - component: {fileID: 271639524}
   - component: {fileID: 271639525}
-  - component: {fileID: 271639526}
   - component: {fileID: 271639527}
+  - component: {fileID: 271639529}
   - component: {fileID: 271639528}
   m_Layer: 0
   m_Name: Seat24
@@ -1293,24 +1293,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &271639526
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 271639523}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 520041eb10d1bde489960019a17d7a3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WinAlo: 0
-  BackAlo: 0
-  FrontAlo: 0
-  AlleyAlo: 0
-  customerSelectorT: {fileID: 0}
-  seat: {fileID: 0}
 --- !u!135 &271639527
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1341,7 +1323,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 271639523}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc456be526669048aca061752d77f39, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c22d228e39450946bb3c8f70ffba1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WinAlo: 0
+  BackAlo: 0
+  FrontAlo: 0
+  AlleyAlo: 0
+  customerSelector1: {fileID: 751496909}
+  seat: {fileID: 0}
+--- !u!114 &271639529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 271639523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3b21638a0166e46a518755752d3f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   back: 1
@@ -1547,8 +1547,8 @@ GameObject:
   m_Component:
   - component: {fileID: 285393018}
   - component: {fileID: 285393019}
-  - component: {fileID: 285393020}
   - component: {fileID: 285393021}
+  - component: {fileID: 285393023}
   - component: {fileID: 285393022}
   m_Layer: 0
   m_Name: Seat6
@@ -1624,24 +1624,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &285393020
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 285393017}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 520041eb10d1bde489960019a17d7a3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WinAlo: 0
-  BackAlo: 0
-  FrontAlo: 0
-  AlleyAlo: 0
-  customerSelectorT: {fileID: 0}
-  seat: {fileID: 0}
 --- !u!135 &285393021
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1672,7 +1654,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 285393017}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc456be526669048aca061752d77f39, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c22d228e39450946bb3c8f70ffba1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WinAlo: 0
+  BackAlo: 0
+  FrontAlo: 0
+  AlleyAlo: 0
+  customerSelector1: {fileID: 751496909}
+  seat: {fileID: 0}
+--- !u!114 &285393023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 285393017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3b21638a0166e46a518755752d3f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   back: 0
@@ -1692,8 +1692,8 @@ GameObject:
   m_Component:
   - component: {fileID: 313655422}
   - component: {fileID: 313655423}
-  - component: {fileID: 313655424}
   - component: {fileID: 313655425}
+  - component: {fileID: 313655427}
   - component: {fileID: 313655426}
   m_Layer: 0
   m_Name: Seat48
@@ -1769,24 +1769,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &313655424
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 313655421}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 520041eb10d1bde489960019a17d7a3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WinAlo: 0
-  BackAlo: 0
-  FrontAlo: 0
-  AlleyAlo: 0
-  customerSelectorT: {fileID: 0}
-  seat: {fileID: 0}
 --- !u!135 &313655425
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1817,7 +1799,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 313655421}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc456be526669048aca061752d77f39, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c22d228e39450946bb3c8f70ffba1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WinAlo: 0
+  BackAlo: 0
+  FrontAlo: 0
+  AlleyAlo: 0
+  customerSelector1: {fileID: 751496909}
+  seat: {fileID: 0}
+--- !u!114 &313655427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 313655421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3b21638a0166e46a518755752d3f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   back: 1
@@ -1837,8 +1837,8 @@ GameObject:
   m_Component:
   - component: {fileID: 354263700}
   - component: {fileID: 354263701}
-  - component: {fileID: 354263702}
   - component: {fileID: 354263703}
+  - component: {fileID: 354263705}
   - component: {fileID: 354263704}
   m_Layer: 0
   m_Name: Seat10
@@ -1914,24 +1914,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &354263702
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 354263699}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 520041eb10d1bde489960019a17d7a3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WinAlo: 0
-  BackAlo: 0
-  FrontAlo: 0
-  AlleyAlo: 0
-  customerSelectorT: {fileID: 0}
-  seat: {fileID: 0}
 --- !u!135 &354263703
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1962,7 +1944,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 354263699}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc456be526669048aca061752d77f39, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c22d228e39450946bb3c8f70ffba1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WinAlo: 0
+  BackAlo: 0
+  FrontAlo: 0
+  AlleyAlo: 0
+  customerSelector1: {fileID: 751496909}
+  seat: {fileID: 0}
+--- !u!114 &354263705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 354263699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3b21638a0166e46a518755752d3f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   back: 0
@@ -1982,8 +1982,8 @@ GameObject:
   m_Component:
   - component: {fileID: 376518964}
   - component: {fileID: 376518965}
-  - component: {fileID: 376518966}
   - component: {fileID: 376518967}
+  - component: {fileID: 376518969}
   - component: {fileID: 376518968}
   m_Layer: 0
   m_Name: Seat25
@@ -2059,24 +2059,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &376518966
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 376518963}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 520041eb10d1bde489960019a17d7a3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WinAlo: 0
-  BackAlo: 0
-  FrontAlo: 0
-  AlleyAlo: 0
-  customerSelectorT: {fileID: 0}
-  seat: {fileID: 0}
 --- !u!135 &376518967
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2107,7 +2089,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 376518963}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc456be526669048aca061752d77f39, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c22d228e39450946bb3c8f70ffba1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WinAlo: 0
+  BackAlo: 0
+  FrontAlo: 0
+  AlleyAlo: 0
+  customerSelector1: {fileID: 751496909}
+  seat: {fileID: 0}
+--- !u!114 &376518969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 376518963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3b21638a0166e46a518755752d3f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   back: 1
@@ -2127,8 +2127,8 @@ GameObject:
   m_Component:
   - component: {fileID: 386036530}
   - component: {fileID: 386036531}
-  - component: {fileID: 386036532}
   - component: {fileID: 386036533}
+  - component: {fileID: 386036535}
   - component: {fileID: 386036534}
   m_Layer: 0
   m_Name: Seat12
@@ -2204,24 +2204,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &386036532
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 386036529}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 520041eb10d1bde489960019a17d7a3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WinAlo: 0
-  BackAlo: 0
-  FrontAlo: 0
-  AlleyAlo: 0
-  customerSelectorT: {fileID: 0}
-  seat: {fileID: 0}
 --- !u!135 &386036533
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2252,7 +2234,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 386036529}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc456be526669048aca061752d77f39, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c22d228e39450946bb3c8f70ffba1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WinAlo: 0
+  BackAlo: 0
+  FrontAlo: 0
+  AlleyAlo: 0
+  customerSelector1: {fileID: 751496909}
+  seat: {fileID: 0}
+--- !u!114 &386036535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 386036529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3b21638a0166e46a518755752d3f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   back: 0
@@ -2272,8 +2272,8 @@ GameObject:
   m_Component:
   - component: {fileID: 416964532}
   - component: {fileID: 416964533}
-  - component: {fileID: 416964534}
   - component: {fileID: 416964535}
+  - component: {fileID: 416964537}
   - component: {fileID: 416964536}
   m_Layer: 0
   m_Name: Seat28
@@ -2349,24 +2349,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &416964534
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 416964531}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 520041eb10d1bde489960019a17d7a3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WinAlo: 0
-  BackAlo: 0
-  FrontAlo: 0
-  AlleyAlo: 0
-  customerSelectorT: {fileID: 0}
-  seat: {fileID: 0}
 --- !u!135 &416964535
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2397,7 +2379,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 416964531}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc456be526669048aca061752d77f39, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c22d228e39450946bb3c8f70ffba1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WinAlo: 0
+  BackAlo: 0
+  FrontAlo: 0
+  AlleyAlo: 0
+  customerSelector1: {fileID: 751496909}
+  seat: {fileID: 0}
+--- !u!114 &416964537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416964531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3b21638a0166e46a518755752d3f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   back: 1
@@ -2417,8 +2417,8 @@ GameObject:
   m_Component:
   - component: {fileID: 431390976}
   - component: {fileID: 431390977}
-  - component: {fileID: 431390978}
   - component: {fileID: 431390979}
+  - component: {fileID: 431390981}
   - component: {fileID: 431390980}
   m_Layer: 0
   m_Name: Seat42
@@ -2494,24 +2494,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &431390978
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 431390975}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 520041eb10d1bde489960019a17d7a3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WinAlo: 0
-  BackAlo: 0
-  FrontAlo: 0
-  AlleyAlo: 0
-  customerSelectorT: {fileID: 0}
-  seat: {fileID: 0}
 --- !u!135 &431390979
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2542,7 +2524,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 431390975}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc456be526669048aca061752d77f39, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c22d228e39450946bb3c8f70ffba1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WinAlo: 0
+  BackAlo: 0
+  FrontAlo: 0
+  AlleyAlo: 0
+  customerSelector1: {fileID: 751496909}
+  seat: {fileID: 0}
+--- !u!114 &431390981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 431390975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3b21638a0166e46a518755752d3f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   back: 1
@@ -2562,8 +2562,8 @@ GameObject:
   m_Component:
   - component: {fileID: 487115306}
   - component: {fileID: 487115307}
-  - component: {fileID: 487115308}
   - component: {fileID: 487115309}
+  - component: {fileID: 487115311}
   - component: {fileID: 487115310}
   m_Layer: 0
   m_Name: Seat33
@@ -2639,24 +2639,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &487115308
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 487115305}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 520041eb10d1bde489960019a17d7a3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WinAlo: 0
-  BackAlo: 0
-  FrontAlo: 0
-  AlleyAlo: 0
-  customerSelectorT: {fileID: 0}
-  seat: {fileID: 0}
 --- !u!135 &487115309
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2687,7 +2669,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 487115305}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc456be526669048aca061752d77f39, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c22d228e39450946bb3c8f70ffba1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WinAlo: 0
+  BackAlo: 0
+  FrontAlo: 0
+  AlleyAlo: 0
+  customerSelector1: {fileID: 751496909}
+  seat: {fileID: 0}
+--- !u!114 &487115311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 487115305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3b21638a0166e46a518755752d3f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   back: 1
@@ -2738,8 +2738,8 @@ GameObject:
   m_Component:
   - component: {fileID: 570008779}
   - component: {fileID: 570008780}
-  - component: {fileID: 570008781}
   - component: {fileID: 570008782}
+  - component: {fileID: 570008784}
   - component: {fileID: 570008783}
   m_Layer: 0
   m_Name: Seat1
@@ -2815,24 +2815,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &570008781
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 570008778}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 520041eb10d1bde489960019a17d7a3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WinAlo: 0
-  BackAlo: 0
-  FrontAlo: 0
-  AlleyAlo: 0
-  customerSelectorT: {fileID: 0}
-  seat: {fileID: 0}
 --- !u!135 &570008782
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2863,7 +2845,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 570008778}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc456be526669048aca061752d77f39, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c22d228e39450946bb3c8f70ffba1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WinAlo: 0
+  BackAlo: 0
+  FrontAlo: 0
+  AlleyAlo: 0
+  customerSelector1: {fileID: 751496909}
+  seat: {fileID: 0}
+--- !u!114 &570008784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570008778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3b21638a0166e46a518755752d3f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   back: 0
@@ -2883,8 +2883,8 @@ GameObject:
   m_Component:
   - component: {fileID: 596041983}
   - component: {fileID: 596041984}
-  - component: {fileID: 596041985}
   - component: {fileID: 596041986}
+  - component: {fileID: 596041988}
   - component: {fileID: 596041987}
   m_Layer: 0
   m_Name: Seat35
@@ -2960,24 +2960,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &596041985
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 596041982}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 520041eb10d1bde489960019a17d7a3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WinAlo: 0
-  BackAlo: 0
-  FrontAlo: 0
-  AlleyAlo: 0
-  customerSelectorT: {fileID: 0}
-  seat: {fileID: 0}
 --- !u!135 &596041986
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3008,7 +2990,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 596041982}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc456be526669048aca061752d77f39, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c22d228e39450946bb3c8f70ffba1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WinAlo: 0
+  BackAlo: 0
+  FrontAlo: 0
+  AlleyAlo: 0
+  customerSelector1: {fileID: 751496909}
+  seat: {fileID: 0}
+--- !u!114 &596041988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 596041982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3b21638a0166e46a518755752d3f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   back: 1
@@ -3028,8 +3028,8 @@ GameObject:
   m_Component:
   - component: {fileID: 722273677}
   - component: {fileID: 722273678}
-  - component: {fileID: 722273679}
   - component: {fileID: 722273680}
+  - component: {fileID: 722273682}
   - component: {fileID: 722273681}
   m_Layer: 0
   m_Name: Seat49
@@ -3105,24 +3105,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &722273679
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 722273676}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 520041eb10d1bde489960019a17d7a3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WinAlo: 0
-  BackAlo: 0
-  FrontAlo: 0
-  AlleyAlo: 0
-  customerSelectorT: {fileID: 0}
-  seat: {fileID: 0}
 --- !u!135 &722273680
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3153,7 +3135,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 722273676}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc456be526669048aca061752d77f39, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c22d228e39450946bb3c8f70ffba1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WinAlo: 0
+  BackAlo: 0
+  FrontAlo: 0
+  AlleyAlo: 0
+  customerSelector1: {fileID: 751496909}
+  seat: {fileID: 0}
+--- !u!114 &722273682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 722273676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3b21638a0166e46a518755752d3f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   back: 1
@@ -3463,8 +3463,8 @@ GameObject:
   m_Component:
   - component: {fileID: 844754375}
   - component: {fileID: 844754376}
-  - component: {fileID: 844754377}
   - component: {fileID: 844754378}
+  - component: {fileID: 844754380}
   - component: {fileID: 844754379}
   m_Layer: 0
   m_Name: Seat4
@@ -3540,24 +3540,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &844754377
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 844754374}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 520041eb10d1bde489960019a17d7a3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WinAlo: 0
-  BackAlo: 0
-  FrontAlo: 0
-  AlleyAlo: 0
-  customerSelectorT: {fileID: 0}
-  seat: {fileID: 0}
 --- !u!135 &844754378
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3588,7 +3570,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 844754374}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc456be526669048aca061752d77f39, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c22d228e39450946bb3c8f70ffba1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WinAlo: 0
+  BackAlo: 0
+  FrontAlo: 0
+  AlleyAlo: 0
+  customerSelector1: {fileID: 751496909}
+  seat: {fileID: 0}
+--- !u!114 &844754380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 844754374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3b21638a0166e46a518755752d3f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   back: 0
@@ -3608,8 +3608,8 @@ GameObject:
   m_Component:
   - component: {fileID: 936660783}
   - component: {fileID: 936660784}
-  - component: {fileID: 936660785}
   - component: {fileID: 936660786}
+  - component: {fileID: 936660788}
   - component: {fileID: 936660787}
   m_Layer: 0
   m_Name: Seat26
@@ -3685,24 +3685,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &936660785
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 936660782}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 520041eb10d1bde489960019a17d7a3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WinAlo: 0
-  BackAlo: 0
-  FrontAlo: 0
-  AlleyAlo: 0
-  customerSelectorT: {fileID: 0}
-  seat: {fileID: 0}
 --- !u!135 &936660786
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3733,7 +3715,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 936660782}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc456be526669048aca061752d77f39, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c22d228e39450946bb3c8f70ffba1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WinAlo: 0
+  BackAlo: 0
+  FrontAlo: 0
+  AlleyAlo: 0
+  customerSelector1: {fileID: 751496909}
+  seat: {fileID: 0}
+--- !u!114 &936660788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 936660782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3b21638a0166e46a518755752d3f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   back: 1
@@ -3753,8 +3753,8 @@ GameObject:
   m_Component:
   - component: {fileID: 974169560}
   - component: {fileID: 974169561}
-  - component: {fileID: 974169562}
   - component: {fileID: 974169563}
+  - component: {fileID: 974169565}
   - component: {fileID: 974169564}
   m_Layer: 0
   m_Name: Seat22
@@ -3830,24 +3830,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &974169562
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 974169559}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 520041eb10d1bde489960019a17d7a3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WinAlo: 0
-  BackAlo: 0
-  FrontAlo: 0
-  AlleyAlo: 0
-  customerSelectorT: {fileID: 0}
-  seat: {fileID: 0}
 --- !u!135 &974169563
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3878,7 +3860,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 974169559}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc456be526669048aca061752d77f39, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c22d228e39450946bb3c8f70ffba1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WinAlo: 0
+  BackAlo: 0
+  FrontAlo: 0
+  AlleyAlo: 0
+  customerSelector1: {fileID: 751496909}
+  seat: {fileID: 0}
+--- !u!114 &974169565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974169559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3b21638a0166e46a518755752d3f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   back: 0
@@ -3898,8 +3898,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1024899845}
   - component: {fileID: 1024899846}
-  - component: {fileID: 1024899847}
   - component: {fileID: 1024899848}
+  - component: {fileID: 1024899850}
   - component: {fileID: 1024899849}
   m_Layer: 0
   m_Name: Seat18
@@ -3975,24 +3975,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1024899847
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1024899844}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 520041eb10d1bde489960019a17d7a3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WinAlo: 0
-  BackAlo: 0
-  FrontAlo: 0
-  AlleyAlo: 0
-  customerSelectorT: {fileID: 0}
-  seat: {fileID: 0}
 --- !u!135 &1024899848
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -4023,7 +4005,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 1024899844}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc456be526669048aca061752d77f39, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c22d228e39450946bb3c8f70ffba1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WinAlo: 0
+  BackAlo: 0
+  FrontAlo: 0
+  AlleyAlo: 0
+  customerSelector1: {fileID: 751496909}
+  seat: {fileID: 0}
+--- !u!114 &1024899850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1024899844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3b21638a0166e46a518755752d3f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   back: 0
@@ -4043,8 +4043,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1039562596}
   - component: {fileID: 1039562597}
-  - component: {fileID: 1039562598}
   - component: {fileID: 1039562599}
+  - component: {fileID: 1039562601}
   - component: {fileID: 1039562600}
   m_Layer: 0
   m_Name: Seat45
@@ -4120,24 +4120,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1039562598
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1039562595}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 520041eb10d1bde489960019a17d7a3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WinAlo: 0
-  BackAlo: 0
-  FrontAlo: 0
-  AlleyAlo: 0
-  customerSelectorT: {fileID: 0}
-  seat: {fileID: 0}
 --- !u!135 &1039562599
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -4168,7 +4150,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 1039562595}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc456be526669048aca061752d77f39, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c22d228e39450946bb3c8f70ffba1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WinAlo: 0
+  BackAlo: 0
+  FrontAlo: 0
+  AlleyAlo: 0
+  customerSelector1: {fileID: 751496909}
+  seat: {fileID: 0}
+--- !u!114 &1039562601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1039562595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3b21638a0166e46a518755752d3f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   back: 1
@@ -4272,8 +4272,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1088182533}
   - component: {fileID: 1088182534}
-  - component: {fileID: 1088182535}
   - component: {fileID: 1088182536}
+  - component: {fileID: 1088182538}
   - component: {fileID: 1088182537}
   m_Layer: 0
   m_Name: Seat14
@@ -4349,24 +4349,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1088182535
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1088182532}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 520041eb10d1bde489960019a17d7a3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WinAlo: 0
-  BackAlo: 0
-  FrontAlo: 0
-  AlleyAlo: 0
-  customerSelectorT: {fileID: 0}
-  seat: {fileID: 0}
 --- !u!135 &1088182536
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -4397,7 +4379,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 1088182532}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc456be526669048aca061752d77f39, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c22d228e39450946bb3c8f70ffba1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WinAlo: 0
+  BackAlo: 0
+  FrontAlo: 0
+  AlleyAlo: 0
+  customerSelector1: {fileID: 751496909}
+  seat: {fileID: 0}
+--- !u!114 &1088182538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1088182532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3b21638a0166e46a518755752d3f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   back: 0
@@ -4554,8 +4554,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1113686333}
   - component: {fileID: 1113686334}
-  - component: {fileID: 1113686335}
   - component: {fileID: 1113686336}
+  - component: {fileID: 1113686338}
   - component: {fileID: 1113686337}
   m_Layer: 0
   m_Name: Seat50
@@ -4631,24 +4631,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1113686335
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1113686332}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 520041eb10d1bde489960019a17d7a3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WinAlo: 0
-  BackAlo: 0
-  FrontAlo: 0
-  AlleyAlo: 0
-  customerSelectorT: {fileID: 0}
-  seat: {fileID: 0}
 --- !u!135 &1113686336
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -4679,7 +4661,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 1113686332}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc456be526669048aca061752d77f39, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c22d228e39450946bb3c8f70ffba1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WinAlo: 0
+  BackAlo: 0
+  FrontAlo: 0
+  AlleyAlo: 0
+  customerSelector1: {fileID: 751496909}
+  seat: {fileID: 0}
+--- !u!114 &1113686338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1113686332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3b21638a0166e46a518755752d3f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   back: 1
@@ -4699,8 +4699,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1122165718}
   - component: {fileID: 1122165719}
-  - component: {fileID: 1122165720}
   - component: {fileID: 1122165721}
+  - component: {fileID: 1122165723}
   - component: {fileID: 1122165722}
   m_Layer: 0
   m_Name: Seat37
@@ -4776,24 +4776,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1122165720
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1122165717}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 520041eb10d1bde489960019a17d7a3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WinAlo: 0
-  BackAlo: 0
-  FrontAlo: 0
-  AlleyAlo: 0
-  customerSelectorT: {fileID: 0}
-  seat: {fileID: 0}
 --- !u!135 &1122165721
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -4824,7 +4806,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 1122165717}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc456be526669048aca061752d77f39, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c22d228e39450946bb3c8f70ffba1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WinAlo: 0
+  BackAlo: 0
+  FrontAlo: 0
+  AlleyAlo: 0
+  customerSelector1: {fileID: 751496909}
+  seat: {fileID: 0}
+--- !u!114 &1122165723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1122165717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3b21638a0166e46a518755752d3f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   back: 1
@@ -4844,8 +4844,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1176402009}
   - component: {fileID: 1176402010}
-  - component: {fileID: 1176402011}
   - component: {fileID: 1176402012}
+  - component: {fileID: 1176402014}
   - component: {fileID: 1176402013}
   m_Layer: 0
   m_Name: Seat39
@@ -4921,24 +4921,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1176402011
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1176402008}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 520041eb10d1bde489960019a17d7a3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WinAlo: 0
-  BackAlo: 0
-  FrontAlo: 0
-  AlleyAlo: 0
-  customerSelectorT: {fileID: 0}
-  seat: {fileID: 0}
 --- !u!135 &1176402012
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -4969,7 +4951,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 1176402008}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc456be526669048aca061752d77f39, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c22d228e39450946bb3c8f70ffba1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WinAlo: 0
+  BackAlo: 0
+  FrontAlo: 0
+  AlleyAlo: 0
+  customerSelector1: {fileID: 751496909}
+  seat: {fileID: 0}
+--- !u!114 &1176402014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1176402008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3b21638a0166e46a518755752d3f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   back: 1
@@ -4989,8 +4989,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1277286494}
   - component: {fileID: 1277286495}
-  - component: {fileID: 1277286496}
   - component: {fileID: 1277286497}
+  - component: {fileID: 1277286499}
   - component: {fileID: 1277286498}
   m_Layer: 0
   m_Name: Seat36
@@ -5066,24 +5066,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1277286496
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1277286493}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 520041eb10d1bde489960019a17d7a3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WinAlo: 0
-  BackAlo: 0
-  FrontAlo: 0
-  AlleyAlo: 0
-  customerSelectorT: {fileID: 0}
-  seat: {fileID: 0}
 --- !u!135 &1277286497
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -5114,7 +5096,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 1277286493}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc456be526669048aca061752d77f39, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c22d228e39450946bb3c8f70ffba1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WinAlo: 0
+  BackAlo: 0
+  FrontAlo: 0
+  AlleyAlo: 0
+  customerSelector1: {fileID: 751496909}
+  seat: {fileID: 0}
+--- !u!114 &1277286499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1277286493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3b21638a0166e46a518755752d3f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   back: 1
@@ -5134,8 +5134,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1299442487}
   - component: {fileID: 1299442488}
-  - component: {fileID: 1299442489}
   - component: {fileID: 1299442490}
+  - component: {fileID: 1299442492}
   - component: {fileID: 1299442491}
   m_Layer: 0
   m_Name: Seat29
@@ -5211,24 +5211,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1299442489
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1299442486}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 520041eb10d1bde489960019a17d7a3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WinAlo: 0
-  BackAlo: 0
-  FrontAlo: 0
-  AlleyAlo: 0
-  customerSelectorT: {fileID: 0}
-  seat: {fileID: 0}
 --- !u!135 &1299442490
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -5259,7 +5241,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 1299442486}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc456be526669048aca061752d77f39, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c22d228e39450946bb3c8f70ffba1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WinAlo: 0
+  BackAlo: 0
+  FrontAlo: 0
+  AlleyAlo: 0
+  customerSelector1: {fileID: 751496909}
+  seat: {fileID: 0}
+--- !u!114 &1299442492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299442486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3b21638a0166e46a518755752d3f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   back: 1
@@ -5324,8 +5324,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1460699969}
   - component: {fileID: 1460699970}
-  - component: {fileID: 1460699971}
   - component: {fileID: 1460699972}
+  - component: {fileID: 1460699974}
   - component: {fileID: 1460699973}
   m_Layer: 0
   m_Name: Seat46
@@ -5401,24 +5401,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1460699971
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1460699968}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 520041eb10d1bde489960019a17d7a3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WinAlo: 0
-  BackAlo: 0
-  FrontAlo: 0
-  AlleyAlo: 0
-  customerSelectorT: {fileID: 0}
-  seat: {fileID: 0}
 --- !u!135 &1460699972
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -5449,7 +5431,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 1460699968}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc456be526669048aca061752d77f39, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c22d228e39450946bb3c8f70ffba1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WinAlo: 0
+  BackAlo: 0
+  FrontAlo: 0
+  AlleyAlo: 0
+  customerSelector1: {fileID: 751496909}
+  seat: {fileID: 0}
+--- !u!114 &1460699974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460699968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3b21638a0166e46a518755752d3f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   back: 1
@@ -5469,8 +5469,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1524433298}
   - component: {fileID: 1524433299}
-  - component: {fileID: 1524433300}
   - component: {fileID: 1524433301}
+  - component: {fileID: 1524433303}
   - component: {fileID: 1524433302}
   m_Layer: 0
   m_Name: Seat20
@@ -5546,24 +5546,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1524433300
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1524433297}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 520041eb10d1bde489960019a17d7a3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WinAlo: 0
-  BackAlo: 0
-  FrontAlo: 0
-  AlleyAlo: 0
-  customerSelectorT: {fileID: 0}
-  seat: {fileID: 0}
 --- !u!135 &1524433301
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -5594,7 +5576,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 1524433297}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc456be526669048aca061752d77f39, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c22d228e39450946bb3c8f70ffba1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WinAlo: 0
+  BackAlo: 0
+  FrontAlo: 0
+  AlleyAlo: 0
+  customerSelector1: {fileID: 751496909}
+  seat: {fileID: 0}
+--- !u!114 &1524433303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1524433297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3b21638a0166e46a518755752d3f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   back: 0
@@ -5614,8 +5614,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1526437762}
   - component: {fileID: 1526437763}
-  - component: {fileID: 1526437764}
   - component: {fileID: 1526437765}
+  - component: {fileID: 1526437767}
   - component: {fileID: 1526437766}
   m_Layer: 0
   m_Name: Seat32
@@ -5691,24 +5691,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1526437764
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1526437761}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 520041eb10d1bde489960019a17d7a3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WinAlo: 0
-  BackAlo: 0
-  FrontAlo: 0
-  AlleyAlo: 0
-  customerSelectorT: {fileID: 0}
-  seat: {fileID: 0}
 --- !u!135 &1526437765
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -5739,7 +5721,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 1526437761}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc456be526669048aca061752d77f39, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c22d228e39450946bb3c8f70ffba1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WinAlo: 0
+  BackAlo: 0
+  FrontAlo: 0
+  AlleyAlo: 0
+  customerSelector1: {fileID: 751496909}
+  seat: {fileID: 0}
+--- !u!114 &1526437767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1526437761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3b21638a0166e46a518755752d3f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   back: 1
@@ -5770,8 +5770,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1573108418}
   - component: {fileID: 1573108419}
-  - component: {fileID: 1573108420}
   - component: {fileID: 1573108421}
+  - component: {fileID: 1573108423}
   - component: {fileID: 1573108422}
   m_Layer: 0
   m_Name: Seat34
@@ -5847,24 +5847,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1573108420
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1573108417}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 520041eb10d1bde489960019a17d7a3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WinAlo: 0
-  BackAlo: 0
-  FrontAlo: 0
-  AlleyAlo: 0
-  customerSelectorT: {fileID: 0}
-  seat: {fileID: 0}
 --- !u!135 &1573108421
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -5895,7 +5877,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 1573108417}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc456be526669048aca061752d77f39, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c22d228e39450946bb3c8f70ffba1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WinAlo: 0
+  BackAlo: 0
+  FrontAlo: 0
+  AlleyAlo: 0
+  customerSelector1: {fileID: 751496909}
+  seat: {fileID: 0}
+--- !u!114 &1573108423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1573108417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3b21638a0166e46a518755752d3f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   back: 1
@@ -5915,8 +5915,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1624765454}
   - component: {fileID: 1624765455}
-  - component: {fileID: 1624765456}
   - component: {fileID: 1624765457}
+  - component: {fileID: 1624765459}
   - component: {fileID: 1624765458}
   m_Layer: 0
   m_Name: Seat47
@@ -5992,24 +5992,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1624765456
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1624765453}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 520041eb10d1bde489960019a17d7a3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WinAlo: 0
-  BackAlo: 0
-  FrontAlo: 0
-  AlleyAlo: 0
-  customerSelectorT: {fileID: 0}
-  seat: {fileID: 0}
 --- !u!135 &1624765457
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -6040,7 +6022,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 1624765453}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc456be526669048aca061752d77f39, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c22d228e39450946bb3c8f70ffba1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WinAlo: 0
+  BackAlo: 0
+  FrontAlo: 0
+  AlleyAlo: 0
+  customerSelector1: {fileID: 751496909}
+  seat: {fileID: 0}
+--- !u!114 &1624765459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1624765453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3b21638a0166e46a518755752d3f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   back: 1
@@ -6060,8 +6060,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1659525486}
   - component: {fileID: 1659525487}
-  - component: {fileID: 1659525488}
   - component: {fileID: 1659525489}
+  - component: {fileID: 1659525491}
   - component: {fileID: 1659525490}
   m_Layer: 0
   m_Name: Seat11
@@ -6137,24 +6137,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1659525488
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1659525485}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 520041eb10d1bde489960019a17d7a3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WinAlo: 0
-  BackAlo: 0
-  FrontAlo: 0
-  AlleyAlo: 0
-  customerSelectorT: {fileID: 0}
-  seat: {fileID: 0}
 --- !u!135 &1659525489
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -6185,7 +6167,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 1659525485}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc456be526669048aca061752d77f39, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c22d228e39450946bb3c8f70ffba1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WinAlo: 0
+  BackAlo: 0
+  FrontAlo: 0
+  AlleyAlo: 0
+  customerSelector1: {fileID: 751496909}
+  seat: {fileID: 0}
+--- !u!114 &1659525491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1659525485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3b21638a0166e46a518755752d3f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   back: 0
@@ -6205,8 +6205,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1700685798}
   - component: {fileID: 1700685799}
-  - component: {fileID: 1700685800}
   - component: {fileID: 1700685801}
+  - component: {fileID: 1700685803}
   - component: {fileID: 1700685802}
   m_Layer: 0
   m_Name: Seat5
@@ -6282,24 +6282,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1700685800
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1700685797}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 520041eb10d1bde489960019a17d7a3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WinAlo: 0
-  BackAlo: 0
-  FrontAlo: 0
-  AlleyAlo: 0
-  customerSelectorT: {fileID: 0}
-  seat: {fileID: 0}
 --- !u!135 &1700685801
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -6330,7 +6312,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 1700685797}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc456be526669048aca061752d77f39, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c22d228e39450946bb3c8f70ffba1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WinAlo: 0
+  BackAlo: 0
+  FrontAlo: 0
+  AlleyAlo: 0
+  customerSelector1: {fileID: 751496909}
+  seat: {fileID: 0}
+--- !u!114 &1700685803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700685797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3b21638a0166e46a518755752d3f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   back: 0
@@ -6350,8 +6350,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1701197152}
   - component: {fileID: 1701197153}
-  - component: {fileID: 1701197154}
   - component: {fileID: 1701197155}
+  - component: {fileID: 1701197157}
   - component: {fileID: 1701197156}
   m_Layer: 0
   m_Name: Seat9
@@ -6427,24 +6427,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1701197154
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1701197151}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 520041eb10d1bde489960019a17d7a3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WinAlo: 0
-  BackAlo: 0
-  FrontAlo: 0
-  AlleyAlo: 0
-  customerSelectorT: {fileID: 0}
-  seat: {fileID: 0}
 --- !u!135 &1701197155
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -6475,7 +6457,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 1701197151}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc456be526669048aca061752d77f39, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c22d228e39450946bb3c8f70ffba1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WinAlo: 0
+  BackAlo: 0
+  FrontAlo: 0
+  AlleyAlo: 0
+  customerSelector1: {fileID: 751496909}
+  seat: {fileID: 0}
+--- !u!114 &1701197157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1701197151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3b21638a0166e46a518755752d3f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   back: 0
@@ -6495,8 +6495,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1745989001}
   - component: {fileID: 1745989002}
-  - component: {fileID: 1745989003}
   - component: {fileID: 1745989004}
+  - component: {fileID: 1745989006}
   - component: {fileID: 1745989005}
   m_Layer: 0
   m_Name: Seat43
@@ -6572,24 +6572,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1745989003
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1745989000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 520041eb10d1bde489960019a17d7a3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WinAlo: 0
-  BackAlo: 0
-  FrontAlo: 0
-  AlleyAlo: 0
-  customerSelectorT: {fileID: 0}
-  seat: {fileID: 0}
 --- !u!135 &1745989004
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -6620,7 +6602,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 1745989000}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc456be526669048aca061752d77f39, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c22d228e39450946bb3c8f70ffba1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WinAlo: 0
+  BackAlo: 0
+  FrontAlo: 0
+  AlleyAlo: 0
+  customerSelector1: {fileID: 751496909}
+  seat: {fileID: 0}
+--- !u!114 &1745989006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1745989000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3b21638a0166e46a518755752d3f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   back: 1
@@ -6640,8 +6640,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1756026266}
   - component: {fileID: 1756026267}
-  - component: {fileID: 1756026268}
   - component: {fileID: 1756026269}
+  - component: {fileID: 1756026271}
   - component: {fileID: 1756026270}
   m_Layer: 0
   m_Name: Seat31
@@ -6717,24 +6717,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1756026268
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1756026265}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 520041eb10d1bde489960019a17d7a3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WinAlo: 0
-  BackAlo: 0
-  FrontAlo: 0
-  AlleyAlo: 0
-  customerSelectorT: {fileID: 0}
-  seat: {fileID: 0}
 --- !u!135 &1756026269
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -6765,7 +6747,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 1756026265}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc456be526669048aca061752d77f39, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c22d228e39450946bb3c8f70ffba1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WinAlo: 0
+  BackAlo: 0
+  FrontAlo: 0
+  AlleyAlo: 0
+  customerSelector1: {fileID: 751496909}
+  seat: {fileID: 0}
+--- !u!114 &1756026271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1756026265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3b21638a0166e46a518755752d3f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   back: 1
@@ -6790,8 +6790,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1776429179}
   - component: {fileID: 1776429180}
-  - component: {fileID: 1776429181}
   - component: {fileID: 1776429182}
+  - component: {fileID: 1776429184}
   - component: {fileID: 1776429183}
   m_Layer: 0
   m_Name: Seat17
@@ -6867,24 +6867,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1776429181
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1776429178}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 520041eb10d1bde489960019a17d7a3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WinAlo: 0
-  BackAlo: 0
-  FrontAlo: 0
-  AlleyAlo: 0
-  customerSelectorT: {fileID: 0}
-  seat: {fileID: 0}
 --- !u!135 &1776429182
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -6915,7 +6897,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 1776429178}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc456be526669048aca061752d77f39, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c22d228e39450946bb3c8f70ffba1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WinAlo: 0
+  BackAlo: 0
+  FrontAlo: 0
+  AlleyAlo: 0
+  customerSelector1: {fileID: 751496909}
+  seat: {fileID: 0}
+--- !u!114 &1776429184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1776429178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3b21638a0166e46a518755752d3f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   back: 0
@@ -6935,8 +6935,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1793805226}
   - component: {fileID: 1793805227}
-  - component: {fileID: 1793805228}
   - component: {fileID: 1793805229}
+  - component: {fileID: 1793805231}
   - component: {fileID: 1793805230}
   m_Layer: 0
   m_Name: Seat44
@@ -7012,24 +7012,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1793805228
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1793805225}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 520041eb10d1bde489960019a17d7a3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WinAlo: 0
-  BackAlo: 0
-  FrontAlo: 0
-  AlleyAlo: 0
-  customerSelectorT: {fileID: 0}
-  seat: {fileID: 0}
 --- !u!135 &1793805229
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -7060,7 +7042,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 1793805225}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc456be526669048aca061752d77f39, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c22d228e39450946bb3c8f70ffba1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WinAlo: 0
+  BackAlo: 0
+  FrontAlo: 0
+  AlleyAlo: 0
+  customerSelector1: {fileID: 751496909}
+  seat: {fileID: 0}
+--- !u!114 &1793805231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1793805225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3b21638a0166e46a518755752d3f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   back: 1
@@ -7080,8 +7080,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1885306190}
   - component: {fileID: 1885306191}
-  - component: {fileID: 1885306192}
   - component: {fileID: 1885306193}
+  - component: {fileID: 1885306195}
   - component: {fileID: 1885306194}
   m_Layer: 0
   m_Name: Seat38
@@ -7157,24 +7157,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1885306192
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1885306189}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 520041eb10d1bde489960019a17d7a3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WinAlo: 0
-  BackAlo: 0
-  FrontAlo: 0
-  AlleyAlo: 0
-  customerSelectorT: {fileID: 0}
-  seat: {fileID: 0}
 --- !u!135 &1885306193
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -7205,7 +7187,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 1885306189}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc456be526669048aca061752d77f39, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c22d228e39450946bb3c8f70ffba1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WinAlo: 0
+  BackAlo: 0
+  FrontAlo: 0
+  AlleyAlo: 0
+  customerSelector1: {fileID: 751496909}
+  seat: {fileID: 0}
+--- !u!114 &1885306195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885306189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3b21638a0166e46a518755752d3f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   back: 1
@@ -7225,8 +7225,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1978616326}
   - component: {fileID: 1978616327}
-  - component: {fileID: 1978616328}
   - component: {fileID: 1978616329}
+  - component: {fileID: 1978616331}
   - component: {fileID: 1978616330}
   m_Layer: 0
   m_Name: Seat3
@@ -7302,24 +7302,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1978616328
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1978616325}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 520041eb10d1bde489960019a17d7a3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WinAlo: 0
-  BackAlo: 0
-  FrontAlo: 0
-  AlleyAlo: 0
-  customerSelectorT: {fileID: 0}
-  seat: {fileID: 0}
 --- !u!135 &1978616329
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -7350,7 +7332,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 1978616325}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc456be526669048aca061752d77f39, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c22d228e39450946bb3c8f70ffba1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WinAlo: 0
+  BackAlo: 0
+  FrontAlo: 0
+  AlleyAlo: 0
+  customerSelector1: {fileID: 751496909}
+  seat: {fileID: 0}
+--- !u!114 &1978616331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1978616325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3b21638a0166e46a518755752d3f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   back: 0
@@ -7370,8 +7370,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2001913239}
   - component: {fileID: 2001913240}
-  - component: {fileID: 2001913241}
   - component: {fileID: 2001913242}
+  - component: {fileID: 2001913244}
   - component: {fileID: 2001913243}
   m_Layer: 0
   m_Name: Seat15
@@ -7447,24 +7447,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2001913241
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2001913238}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 520041eb10d1bde489960019a17d7a3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WinAlo: 0
-  BackAlo: 0
-  FrontAlo: 0
-  AlleyAlo: 0
-  customerSelectorT: {fileID: 0}
-  seat: {fileID: 0}
 --- !u!135 &2001913242
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -7495,7 +7477,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 2001913238}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc456be526669048aca061752d77f39, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c22d228e39450946bb3c8f70ffba1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WinAlo: 0
+  BackAlo: 0
+  FrontAlo: 0
+  AlleyAlo: 0
+  customerSelector1: {fileID: 751496909}
+  seat: {fileID: 0}
+--- !u!114 &2001913244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001913238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3b21638a0166e46a518755752d3f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   back: 0
@@ -7515,8 +7515,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2005005998}
   - component: {fileID: 2005005999}
-  - component: {fileID: 2005006000}
   - component: {fileID: 2005006001}
+  - component: {fileID: 2005006003}
   - component: {fileID: 2005006002}
   m_Layer: 0
   m_Name: Seat30
@@ -7592,24 +7592,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2005006000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2005005997}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 520041eb10d1bde489960019a17d7a3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WinAlo: 0
-  BackAlo: 0
-  FrontAlo: 0
-  AlleyAlo: 0
-  customerSelectorT: {fileID: 0}
-  seat: {fileID: 0}
 --- !u!135 &2005006001
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -7640,7 +7622,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 2005005997}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc456be526669048aca061752d77f39, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c22d228e39450946bb3c8f70ffba1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WinAlo: 0
+  BackAlo: 0
+  FrontAlo: 0
+  AlleyAlo: 0
+  customerSelector1: {fileID: 751496909}
+  seat: {fileID: 0}
+--- !u!114 &2005006003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2005005997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3b21638a0166e46a518755752d3f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   back: 1
@@ -7776,8 +7776,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2091348580}
   - component: {fileID: 2091348581}
-  - component: {fileID: 2091348582}
   - component: {fileID: 2091348583}
+  - component: {fileID: 2091348585}
   - component: {fileID: 2091348584}
   m_Layer: 0
   m_Name: Seat40
@@ -7853,24 +7853,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2091348582
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2091348579}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 520041eb10d1bde489960019a17d7a3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WinAlo: 0
-  BackAlo: 0
-  FrontAlo: 0
-  AlleyAlo: 0
-  customerSelectorT: {fileID: 0}
-  seat: {fileID: 0}
 --- !u!135 &2091348583
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -7901,7 +7883,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 2091348579}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc456be526669048aca061752d77f39, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c22d228e39450946bb3c8f70ffba1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WinAlo: 0
+  BackAlo: 0
+  FrontAlo: 0
+  AlleyAlo: 0
+  customerSelector1: {fileID: 751496909}
+  seat: {fileID: 0}
+--- !u!114 &2091348585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2091348579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3b21638a0166e46a518755752d3f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   back: 1
@@ -7921,8 +7921,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2092915043}
   - component: {fileID: 2092915044}
-  - component: {fileID: 2092915045}
   - component: {fileID: 2092915046}
+  - component: {fileID: 2092915048}
   - component: {fileID: 2092915047}
   m_Layer: 0
   m_Name: Seat27
@@ -7998,24 +7998,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2092915045
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2092915042}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 520041eb10d1bde489960019a17d7a3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WinAlo: 0
-  BackAlo: 0
-  FrontAlo: 0
-  AlleyAlo: 0
-  customerSelectorT: {fileID: 0}
-  seat: {fileID: 0}
 --- !u!135 &2092915046
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -8046,7 +8028,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 2092915042}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc456be526669048aca061752d77f39, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c22d228e39450946bb3c8f70ffba1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WinAlo: 0
+  BackAlo: 0
+  FrontAlo: 0
+  AlleyAlo: 0
+  customerSelector1: {fileID: 751496909}
+  seat: {fileID: 0}
+--- !u!114 &2092915048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2092915042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3b21638a0166e46a518755752d3f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   back: 1
@@ -8066,8 +8066,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2115253301}
   - component: {fileID: 2115253302}
-  - component: {fileID: 2115253303}
   - component: {fileID: 2115253304}
+  - component: {fileID: 2115253306}
   - component: {fileID: 2115253305}
   m_Layer: 0
   m_Name: Seat41
@@ -8143,24 +8143,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2115253303
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2115253300}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 520041eb10d1bde489960019a17d7a3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WinAlo: 0
-  BackAlo: 0
-  FrontAlo: 0
-  AlleyAlo: 0
-  customerSelectorT: {fileID: 0}
-  seat: {fileID: 0}
 --- !u!135 &2115253304
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -8191,7 +8173,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 2115253300}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc456be526669048aca061752d77f39, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c22d228e39450946bb3c8f70ffba1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WinAlo: 0
+  BackAlo: 0
+  FrontAlo: 0
+  AlleyAlo: 0
+  customerSelector1: {fileID: 751496909}
+  seat: {fileID: 0}
+--- !u!114 &2115253306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2115253300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3b21638a0166e46a518755752d3f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   back: 1
@@ -8212,6 +8212,10 @@ PrefabInstance:
     - target: {fileID: 1895595867997235748, guid: fce5cdffcd08eba48b6c8abf1081cde7, type: 3}
       propertyPath: m_Name
       value: Capsule
+      objectReference: {fileID: 0}
+    - target: {fileID: 1895595867997235748, guid: fce5cdffcd08eba48b6c8abf1081cde7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5620677677328195484, guid: fce5cdffcd08eba48b6c8abf1081cde7, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -8280,8 +8284,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2140478445}
   - component: {fileID: 2140478446}
-  - component: {fileID: 2140478447}
   - component: {fileID: 2140478448}
+  - component: {fileID: 2140478450}
   - component: {fileID: 2140478449}
   m_Layer: 0
   m_Name: Seat21
@@ -8357,24 +8361,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2140478447
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2140478444}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 520041eb10d1bde489960019a17d7a3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WinAlo: 0
-  BackAlo: 0
-  FrontAlo: 0
-  AlleyAlo: 0
-  customerSelectorT: {fileID: 0}
-  seat: {fileID: 0}
 --- !u!135 &2140478448
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -8405,7 +8391,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 2140478444}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc456be526669048aca061752d77f39, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c22d228e39450946bb3c8f70ffba1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WinAlo: 0
+  BackAlo: 0
+  FrontAlo: 0
+  AlleyAlo: 0
+  customerSelector1: {fileID: 751496909}
+  seat: {fileID: 0}
+--- !u!114 &2140478450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2140478444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a3b21638a0166e46a518755752d3f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   back: 0

@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 4375811470885426880}
   - component: {fileID: 6874119963753824731}
   - component: {fileID: -6424313533535354490}
+  - component: {fileID: -6687223271045398854}
+  - component: {fileID: 2870073828348493600}
   m_Layer: 6
   m_Name: CircleCustomerRed
   m_TagString: Customer
@@ -133,5 +135,46 @@ MonoBehaviour:
   Square: 0
   Triangle: 0
   Diamond: 0
-  customerSelector: {fileID: 0}
-  CurrentColor: {fileID: 0}
+  seatSelector: {fileID: 0}
+--- !u!114 &-6687223271045398854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4382294668672705786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 466fc56f108e3dd4ea6a530f4a60132e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Red: 0
+  Green: 1
+  Blue: 0
+  Yellow: 0
+  Round: 1
+  Square: 0
+  Triangle: 0
+  Diamond: 0
+  seatSelector: {fileID: 0}
+--- !u!114 &2870073828348493600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4382294668672705786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64ecfd9c61a856a4caa85a93691613b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Red: 1
+  Green: 0
+  Blue: 0
+  Yellow: 0
+  Round: 1
+  Square: 0
+  Triangle: 0
+  Diamond: 0
+  seatSelector: {fileID: 0}
