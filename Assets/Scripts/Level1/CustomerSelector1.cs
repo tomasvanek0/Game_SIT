@@ -6,15 +6,16 @@ using UnityEngine.SceneManagement;
 public class CustomerSelector1 : MonoBehaviour
 {
     public GameObject[] Customers;
-    public CustomerParrent customerParrent;
-    public Transform CustomerParrent;
     public bool isOccupied = false;
     public Transform CustomerPoint;
+    public Transform CustomerParrent1;
+    public CustomerParrent customerParrent;
     public GameObject currentCustomer;
     public int numberOfCustomers;
     public Customer customer;
     public Level1 level1;
     public LoadLogic loadLogic;
+
 
     public static CustomerSelector1 Instance;
     void Awake()
@@ -26,12 +27,25 @@ public class CustomerSelector1 : MonoBehaviour
         }
 
         Instance = this;
-        CustomerParrent = CustomerParrent.Instance;
+        customerParrent = CustomerParrent.Instance;
     }
 
 
-private void Start()
+    private void Start()
     {
+        GameObject obj = GameObject.FindWithTag("Parrent");
+        CustomerParrent1 = obj.transform;
+        level1 = FindObjectOfType<Level1>();
+        loadLogic = FindObjectOfType<LoadLogic>();
+        int MaxDeleteCustomer = Random.Range(0, CustomerParrent1.childCount);
+
+        for (int i = 0; i < MaxDeleteCustomer; i++)
+        {
+            int index = Random.Range(0, CustomerParrent1.childCount);
+            GameObject DelCust = CustomerParrent1.GetChild(index).gameObject;
+            Destroy( DelCust );
+        }
+
         StartCoroutine(SpawnCustomers());
         
     }
@@ -86,7 +100,7 @@ private void Start()
         if (Customer != null)
         {
             currentCustomer = Instantiate(Customer, CustomerPoint);
-            currentCustomer.transform.SetParent(CustomerParrent);
+            currentCustomer.transform.SetParent(CustomerParrent1);
             currentCustomer.tag = "Customer";
 
         }

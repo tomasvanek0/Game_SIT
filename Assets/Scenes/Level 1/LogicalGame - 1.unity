@@ -2708,8 +2708,8 @@ GameObject:
   - component: {fileID: 555779157}
   - component: {fileID: 555779158}
   m_Layer: 0
-  m_Name: CustomerParrent
-  m_TagString: Untagged
+  m_Name: CustomerParrent1
+  m_TagString: Parrent
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3258,7 +3258,8 @@ MonoBehaviour:
   - {fileID: 6481915028060189711, guid: d22aebb2fe551534ca4ac85ed45ba4df, type: 3}
   isOccupied: 0
   CustomerPoint: {fileID: 751496906}
-  CustomerParrent: {fileID: 555779157}
+  CustomerParrent1: {fileID: 555779157}
+  customerParrent: {fileID: 555779158}
   currentCustomer: {fileID: 0}
   numberOfCustomers: 0
   customer: {fileID: 0}
@@ -7712,7 +7713,7 @@ GameObject:
   - component: {fileID: 2034470473}
   m_Layer: 0
   m_Name: GameManager
-  m_TagString: Untagged
+  m_TagString: GameController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -75,7 +75,18 @@ public class Seat1 : MonoBehaviour
     void Start()
     {
         FindNeighbours();
+        Collider2D hit = Physics2D.OverlapCircle(transform.position, 2);
+        if (hit != null)
+        {
+            isSeatOccupied = true;
+        }
+        else
+        {
+            isSeatOccupied = false;
+        }
     }
+
+    
 
     void FindNeighbours()
     {
