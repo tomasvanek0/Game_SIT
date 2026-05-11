@@ -34,4 +34,8 @@ public class MenuStartButton : MonoBehaviour
         Instantiate(uvodniMenu);
         
     }
+    public void StartFullGame(string load)
+    {
+        SceneManager.LoadScene(load);
+    }
 }

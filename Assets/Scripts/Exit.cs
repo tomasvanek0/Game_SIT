@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class Exit : MonoBehaviour
 {
+    public PauseMenu pauseMenu;
     public bool pause = false;
     public GameObject prefab;
     public GameObject spawnMenu;
@@ -26,10 +27,7 @@ public class Exit : MonoBehaviour
             }
             else if (pause == true)
             {
-                Time.timeScale = 1f;
-                pause = false;
-                Destroy(spawnMenu);
-                Debug.Log("konec pauza esc");
+                pauseMenu.ContinueGame();
             }
         }
     }

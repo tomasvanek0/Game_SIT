@@ -6,12 +6,12 @@ using UnityEngine.SceneManagement;
 public class Level1 : MonoBehaviour
 {
     public string ActualScene1;
-    public int SceneCounter = 0;
+    public int SceneCounter;
 
     public static Level1 Instance;
     void Awake()
     {
-        if (FindObjectsOfType<Level1>().Length > 1)
+        if (Instance != null && Instance != this)
         {
             Destroy(gameObject);
             return;
@@ -22,10 +22,9 @@ public class Level1 : MonoBehaviour
     }
 
 
-    
+
     public void LoadAnotherScene(string LoadingScene)
     {
-        SceneCounter++;
         SceneManager.LoadScene(LoadingScene);
         
     }

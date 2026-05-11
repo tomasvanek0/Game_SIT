@@ -68,6 +68,7 @@ public class CustomerSelector1 : MonoBehaviour
         yield return new WaitUntil(() => isOccupied == false);
         yield return new WaitForSeconds(1);
         Debug.LogWarning("Spawn dokonèen");
+        level1.SceneCounter++;
         LoadLogic.Instance.LoadLogicGame();
 
     }

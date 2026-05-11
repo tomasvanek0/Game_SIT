@@ -8,6 +8,7 @@ TagManager:
   - Customer
   - Plno
   - Parrent
+  - GameManager
   layers:
   - Default
   - TransparentFX

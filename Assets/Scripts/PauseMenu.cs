@@ -20,6 +20,7 @@ public class PauseMenu : MonoBehaviour
 
     public void ExitScene()
     {
+        Destroy(GameObject.FindWithTag("GameManager"));
         SceneManager.LoadScene("Menu");
         Time.timeScale = 1f;
 

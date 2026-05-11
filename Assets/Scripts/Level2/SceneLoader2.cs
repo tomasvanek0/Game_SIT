@@ -6,26 +6,36 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader2 : MonoBehaviour
 {
-
-    public Level2 level2;
+    public GameObject FinalMenu;
     public float time;
 
     // Start is called before the first frame update
     void Start()
     {
+        Debug.Log("Start SceneLoader1: ");
         time = Random.Range(20, 40);
         StartCoroutine(AfterTime());
     }
     IEnumerator AfterTime()
     {
-        yield return new WaitForSeconds(time); 
-        if (Level2.Instance.SceneCounter > 6)
+        if (Level2.Instance == null)
         {
-            Time.timeScale = 0;
+            Debug.LogError("Level1.Instance je NULL!");
+            yield break;
+        }
+
+        yield return new WaitForSeconds(time); 
+        if (Level2.Instance.SceneCounter > 10)
+        {
+            Debug.LogWarning("Hra zastavena z duvodu prekroceni limitu scén");
+            Instantiate(FinalMenu);
+            Time.timeScale = 0f;
         }
         else
         {
-            Level2.Instance.LoadAnotherScene("LogicalGame - 1");
+            Debug.LogWarning("Hra pokracuje");
+            Level2.Instance.LoadAnotherScene("LogicalGame - 2");
+            Seats.Instance.gameObject.SetActive(true);
         }
         
     }
