@@ -12,7 +12,6 @@ public class PauseMenuT : MonoBehaviour
     public void ContinueGame()
     {   
         Time.timeScale = 1f;
-        exit.pause = false;
         Destroy(spawnMenu);
         Debug.Log("pauza klik");
 

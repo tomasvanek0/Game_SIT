@@ -9,6 +9,7 @@ TagManager:
   - Plno
   - Parrent
   - GameManager
+  - Seats
   layers:
   - Default
   - TransparentFX

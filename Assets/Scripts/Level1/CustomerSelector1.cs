@@ -15,6 +15,8 @@ public class CustomerSelector1 : MonoBehaviour
     public Customer customer;
     public Level1 level1;
     public LoadLogic loadLogic;
+    public Transform Seats;
+    public Seats seats;
 
 
     public static CustomerSelector1 Instance;
@@ -33,6 +35,7 @@ public class CustomerSelector1 : MonoBehaviour
 
     private void Start()
     {
+        seats = FindObjectOfType<Seats>();
         GameObject obj = GameObject.FindWithTag("Parrent");
         CustomerParrent1 = obj.transform;
         level1 = FindObjectOfType<Level1>();
@@ -79,7 +82,28 @@ public class CustomerSelector1 : MonoBehaviour
 
     public int GetRandomCustomerNumber()
     {
-             return (Random.Range(1, 12));
+        GameObject seatsParrent = GameObject.FindWithTag("Seats");
+        Seats = seatsParrent.transform;
+        List<Transform> freeSeats = new List<Transform>();
+
+        int maxNumber = Seats.childCount;
+        Debug.Log("Pocet deti: " + maxNumber);
+
+        foreach (Transform seat in Seats)
+        {
+            Seat1 seatScript = seat.GetComponent<Seat1>();
+
+            if (seatScript != null && !seatScript.isSeatOccupied)
+            {
+                Debug.Log("Occupied: " + seatScript.isSeatOccupied);
+                freeSeats.Add(seat);
+            }
+        }
+
+
+        maxNumber = freeSeats.Count;
+        Debug.Log(maxNumber);
+        return (Random.Range(1, maxNumber));
     }
 
 

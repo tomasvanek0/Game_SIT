@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class BackToMenu : MonoBehaviour
 {
+    
     // Start is called before the first frame update
     public void GoBackToMenu()
     {
@@ -19,6 +20,7 @@ public class BackToMenu : MonoBehaviour
         }
 
         Time.timeScale = 1.0f;
+        JsonScore.Instance.SaveGame();
         SceneManager.LoadScene("Menu");
     }
     

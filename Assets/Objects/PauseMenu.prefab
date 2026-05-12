@@ -745,7 +745,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 8939001254554790954}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
-        m_MethodName: ContinueGame
+        m_MethodName: ResumeGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -754,7 +754,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
 --- !u!1 &7556143774404478666
 GameObject:
   m_ObjectHideFlags: 0
@@ -765,13 +765,12 @@ GameObject:
   m_Component:
   - component: {fileID: 4314338200084187551}
   - component: {fileID: 8939001254554790954}
-  - component: {fileID: 3773494662732763418}
   m_Layer: 0
   m_Name: MenuManager
   m_TagString: GameManager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &4314338200084187551
 Transform:
@@ -800,21 +799,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c075851c5e91e24186c9d4164345bc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  exit: {fileID: 3773494662732763418}
   spawnMenu: {fileID: 175405111897539569}
---- !u!114 &3773494662732763418
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7556143774404478666}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 82092f3003499de4896aa71b71be99ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pauseMenu: {fileID: 8939001254554790954}
   pause: 0
-  prefab: {fileID: 175405111897539569}
-  spawnMenu: {fileID: 0}
+  prefab: {fileID: 7556143774404478666}

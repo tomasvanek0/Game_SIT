@@ -31,6 +31,7 @@ public class Game1Interview : MonoBehaviour
             dialogueNumber += 1;
 
         }
+        
 
 
     }
@@ -46,7 +47,7 @@ public class Game1Interview : MonoBehaviour
             Time.timeScale = 1f;
             Destroy(dialogueBar);
             dialogueNumber = 0;
-
+            Destroy(this);
             
 
         }
