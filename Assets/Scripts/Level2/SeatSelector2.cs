@@ -26,13 +26,14 @@ public class SeatSelector2 : MonoBehaviour
         if (CustomerSelector2.Instance.currentCustomer == null)
             return;
 
-        Customer customer = CustomerSelector2.Instance.currentCustomer.GetComponent<Customer>();
+        Customer2 customer = CustomerSelector2.Instance.currentCustomer.GetComponent<Customer2>();
 
         if (seat.CanSit(customer))
         {
             customer.transform.position = transform.position;
 
             seat.isSeatOccupied = true;
+            seat.seatedCustomer = customer;
             CustomerSelector2.Instance.isOccupied = false;
             CustomerSelector2.Instance.currentCustomer = null;
 

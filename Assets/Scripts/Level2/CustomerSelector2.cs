@@ -104,7 +104,7 @@ public class CustomerSelector2 : MonoBehaviour
         }
         maxNumber = freeSeats.Count;
         Debug.Log(maxNumber);
-        return (Random.Range(1, maxNumber));
+        return (Random.Range(1, maxNumber / 2));
     }
 
 

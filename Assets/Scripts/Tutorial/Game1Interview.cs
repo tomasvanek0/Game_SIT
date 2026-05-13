@@ -10,7 +10,7 @@ public class Game1Interview : MonoBehaviour
     public GameManager gameManager;
     public string[] monologs;
     public int dialogueNumber = 0;
-    public int dialoguePocet = 6;
+    public int dialoguePocet = 7;
     public GameObject dialogueBar;
 
     // Start is called before the first frame update

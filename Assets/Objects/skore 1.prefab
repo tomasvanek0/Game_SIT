@@ -226,8 +226,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 26
+  m_fontSizeBase: 26
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -532,7 +532,7 @@ GameObject:
   - component: {fileID: 6172168424043785967}
   - component: {fileID: 8575592715579197939}
   m_Layer: 0
-  m_Name: skore
+  m_Name: skore 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -750,7 +750,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8309160364361098973}
   - component: {fileID: 2398078514563631002}
-  - component: {fileID: 8282804927430090424}
+  - component: {fileID: 2256178192693484526}
   m_Layer: 0
   m_Name: BackManager
   m_TagString: Untagged
@@ -785,7 +785,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e21f6a7b91ed8e4db7f57a909a8aad6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &8282804927430090424
+--- !u!114 &2256178192693484526
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -794,7 +794,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 9025460314165066119}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4050f2a86f13cd5429dde60846ea5fcd, type: 3}
+  m_Script: {fileID: 11500000, guid: 7ad0353dfb76a2e40a0b7df6ec7bd19f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: 0

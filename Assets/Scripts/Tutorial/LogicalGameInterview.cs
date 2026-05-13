@@ -8,7 +8,7 @@ public class LogicalGameInterview : MonoBehaviour
 {
 
     public TMP_Text dialogue;
-    public int dialoguePocet = 14;
+    public int dialoguePocet = 16;
     public int dialogueNumber = 0;
     public string[] monologs;
     public GameObject dialogueBar;

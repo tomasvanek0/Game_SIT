@@ -9,7 +9,7 @@ public class TutorialInterview : MonoBehaviour
 {
 
     public TMP_Text dialogue;
-    public int dialoguePocet = 6;
+    public int dialoguePocet = 7;
     public int dialogueNumber = 0;
     public string[] monologs;
 

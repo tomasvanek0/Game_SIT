@@ -20,7 +20,7 @@ public class BackToMenu : MonoBehaviour
         }
 
         Time.timeScale = 1.0f;
-        JsonScore.Instance.SaveGame();
+        JsonScore.Instance.SaveGame1();
         SceneManager.LoadScene("Menu");
     }
     

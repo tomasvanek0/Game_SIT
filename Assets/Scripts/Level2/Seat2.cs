@@ -15,8 +15,9 @@ public class Seat2 : MonoBehaviour
     public float neighbourDistance = 0.8f;   
     public List<Seat2> neighbours = new List<Seat2>();
 
+    public Customer2 seatedCustomer;
 
-    public bool CanSit(Customer customer)
+    public bool CanSit(Customer2 customer)
     {
         // Obsazené místo nebo neexistující zákazník
         if (customer == null || isSeatOccupied)
@@ -41,6 +42,9 @@ public class Seat2 : MonoBehaviour
         if (customer.Triangle && neighbours.Any(n => n.isSeatOccupied))
             return false;
 
+        if (neighbours.Any(n => n.isSeatOccupied && n.seatedCustomer != null && n.seatedCustomer.Triangle))
+            return false;
+
         // Diamond chce mít souseda
         if (customer.Diamond && !neighbours.Any(n => n.isSeatOccupied))
             return false;
@@ -51,7 +55,7 @@ public class Seat2 : MonoBehaviour
     void Start()
     {
         FindNeighbours();
-        Collider2D hit = Physics2D.OverlapCircle(transform.position, 2);
+        Collider2D hit = Physics2D.OverlapCircle(transform.position, 1);
         if (hit != null)
         {
             isSeatOccupied = true;

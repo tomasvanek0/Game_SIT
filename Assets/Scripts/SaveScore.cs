@@ -5,7 +5,7 @@ using UnityEngine;
 
 [System.Serializable]
 
-public class SaveScore : MonoBehaviour
+public class SaveScore
 {
   public float score;
 }

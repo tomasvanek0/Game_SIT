@@ -12,7 +12,7 @@ public class SeatSelector1 : MonoBehaviour
 
     public CustomerSelector1 customerSelector1;
     public Seat1 seat;
-
+    
     private void Awake()
     {
         if (customerSelector1 == null)
@@ -33,6 +33,7 @@ public class SeatSelector1 : MonoBehaviour
             customer.transform.position = transform.position;
 
             seat.isSeatOccupied = true;
+            seat.seatedCustomer = customer;
             CustomerSelector1.Instance.isOccupied = false;
             CustomerSelector1.Instance.currentCustomer = null;
 
