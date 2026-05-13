@@ -30,25 +30,41 @@ public class SeatSelectorT : MonoBehaviour
 
         if (seat.CanSit(customer))
         {
-            customer.transform.position = transform.position;
+            if (seat.isSeatOccupied)
+            {
+                Debug.Log("již obsazeno");
+            }
+            else
+            {
+                customer.transform.position = transform.position;
 
-            seat.isSeatOccupied = true;
-            customerSelector1.isOccupied = false;
-            customerSelector1.currentCustomer = null;
+                seat.isSeatOccupied = true;
+                customerSelector1.isOccupied = false;
+                customerSelector1.currentCustomer = null;
 
-            Debug.Log("Zákazník si sedl");
-            GameManager.Instance.AddScore(200);
+                Debug.Log("Zákazník si sedl");
+                GameManager.Instance.AddScore(200);
+            }
+           
         }
         else
         {
-            customer.transform.position = transform.position;
+            if (seat.isSeatOccupied)
+            {
+                Debug.Log("již obsazeno");
+            }
+            else
+            {
+                customer.transform.position = transform.position;
 
-            seat.isSeatOccupied = true;
-            customerSelector1.isOccupied = false;
-            customerSelector1.currentCustomer = null;
+                seat.isSeatOccupied = true;
+                customerSelector1.isOccupied = false;
+                customerSelector1.currentCustomer = null;
 
-            Debug.Log("Sedl si, ale špatnì");
-            GameManager.Instance.AddScore(-500);
+                Debug.Log("Sedl si, ale špatnì");
+                GameManager.Instance.AddScore(-500);
+            }
+            
         }
     }
 }

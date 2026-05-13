@@ -35,15 +35,33 @@ public class JsonScore : MonoBehaviour
         SaveScore data = new SaveScore();
 
         data.score = GameManager.Instance.score;
-       
+        if (File.Exists(savePath))
+        {
+            string loadedScore = File.ReadAllText(savePath);
+            loadedScore = System.Text.Encoding.UTF8.GetString(Convert.FromBase64String(loadedScore));
+            float floatScoreLoaded = JsonUtility.FromJson<float>(loadedScore);
 
-        string json = JsonUtility.ToJson(data, true);
+            if (data.score > floatScoreLoaded)
+            {
+                string json = JsonUtility.ToJson(data, true);
 
-        json = Convert.ToBase64String(System.Text.Encoding.UTF8.GetBytes(json));
+                json = Convert.ToBase64String(System.Text.Encoding.UTF8.GetBytes(json));
 
-        File.WriteAllText(savePath, json);
+                File.WriteAllText(savePath, json);
 
-        Debug.Log("Hra uložena do: " + savePath);
+                Debug.Log("Hra uložena do: " + savePath);
+            }
+        }
+        else
+        {
+            string json = JsonUtility.ToJson(data, true);
+
+            json = Convert.ToBase64String(System.Text.Encoding.UTF8.GetBytes(json));
+
+            File.WriteAllText(savePath, json);
+
+            Debug.Log("Hra uložena do: " + savePath);
+        }
     }
     public float LoadGame1()
     {
@@ -68,14 +86,36 @@ public class JsonScore : MonoBehaviour
         SaveScore data = new SaveScore();
 
         data.score = GameManager.Instance.score;
+        
+        if (File.Exists(savePath2))
+        {
+            string loadedScore = File.ReadAllText(savePath2);
+            loadedScore = System.Text.Encoding.UTF8.GetString(Convert.FromBase64String(loadedScore));
+            float floatScoreLoaded = JsonUtility.FromJson<float>(loadedScore);
 
+            if (data.score > floatScoreLoaded)
+            {
+                string json = JsonUtility.ToJson(data, true);
+                json = Convert.ToBase64String(System.Text.Encoding.UTF8.GetBytes(json));
 
-        string json = JsonUtility.ToJson(data, true);
-        json = Convert.ToBase64String(System.Text.Encoding.UTF8.GetBytes(json));
+                File.WriteAllText(savePath2, json);
 
-        File.WriteAllText(savePath2, json);
+                Debug.Log("Hra uložena do: " + savePath2);
+            }
+        }
+        else
+        {
+            string json = JsonUtility.ToJson(data, true);
+            json = Convert.ToBase64String(System.Text.Encoding.UTF8.GetBytes(json));
 
-        Debug.Log("Hra uložena do: " + savePath2);
+            File.WriteAllText(savePath2, json);
+
+            Debug.Log("Hra uložena do: " + savePath2);
+        }
+
+        
+
+        
     }
     public float LoadGame2()
     {
