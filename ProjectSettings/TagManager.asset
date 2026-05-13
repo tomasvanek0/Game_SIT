@@ -7,6 +7,9 @@ TagManager:
   - Auto
   - Customer
   - Plno
+  - Parrent
+  - GameManager
+  - Seats
   layers:
   - Default
   - TransparentFX

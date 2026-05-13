@@ -6,31 +6,24 @@ using UnityEngine.SceneManagement;
 
 public class Exit : MonoBehaviour
 {
-    public bool pause = false;
-    public GameObject prefab;
-    public GameObject spawnMenu;
+    public static Exit Instance { get; private set; }
 
-    // Update is called once per frame
-    private void Update()
+
+    private GameObject spawnMenu;
+
+
+    private void Awake()
     {
-        if (Input.GetKeyDown("escape"))
+        if (Instance != null && Instance != this)
         {
-            if (pause == false)
-            {
-                Time.timeScale = 0f;
-                pause = true;
-                spawnMenu = Instantiate(prefab);
-                Debug.Log("pauza esc");
-
-
-            }
-            else if (pause == true)
-            {
-                Time.timeScale = 1f;
-                pause = false;
-                Destroy(spawnMenu);
-                Debug.Log("konec pauza esc");
-            }
+            Destroy(gameObject);
+            return;
         }
+        Debug.Log("EXIT AWAE");
+        Instance = this;
     }
+
+    
+
+    
 }

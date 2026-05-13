@@ -11,71 +11,57 @@ public class Seat1 : MonoBehaviour
     public bool alley;
 
     public bool isSeatOccupied;
-
+    public Customer seatedCustomer;
     public float neighbourDistance = 0.8f;   
     public List<Seat1> neighbours = new List<Seat1>();
 
 
     public bool CanSit(Customer customer)
     {
-        //pokud volno nebo neni zakaznik
-        if (isSeatOccupied)
-        {
+        // Obsazené místo nebo neexistující zákazník
+        if (customer == null || isSeatOccupied)
             return false;
-        }
-        if (customer == null)
-        {
-            return false;
-        }
-        //pokud modry
+
+        // BARVY
         if (customer.Blue && !window)
-        {
             return false;
-        }
-        if (customer.Blue && window)
-        { 
-            return true;
-        }
-        //pokud cerveny
+
         if (customer.Red && !back)
-        {
             return false;
-        }
-        if (customer.Red && back)
-        {
-            return true;
-        }
-        //pokud zluty
+
         if (customer.Yellow && !alley)
-        {
             return false;
-        }
-        if (customer.Yellow && alley)
-        {
-            return true;
-        }
-        //pokud zeleny
+
         if (customer.Green && !front)
-        {
             return false;
-        }
-        if (customer.Green && front)
-        {
-            return true;
-        }
+
+        // TVARY
+
+        // Triangle chce být sám
         if (customer.Triangle && neighbours.Any(n => n.isSeatOccupied))
-        {
             return false;
-        }
-        
-        
-            return true;
+
+        if (neighbours.Any(n => n.isSeatOccupied && n.seatedCustomer != null && n.seatedCustomer.Triangle))
+            return false;
+
+        return true;
     }
 
     void Start()
     {
         FindNeighbours();
+        Collider2D hit = Physics2D.OverlapCircle(transform.position, 1);
+        if (hit != null)
+        {
+            isSeatOccupied = true;
+        }
+        else
+        {
+            isSeatOccupied = false;
+        }
     }
+
+    
 
     void FindNeighbours()
     {

@@ -6,27 +6,39 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Menu.unity
+    path: Assets/Objects/Scenes/Menu.unity
     guid: d23038d82c5f5d04cada02e2e5cdb4dd
   - enabled: 1
-    path: Assets/Scenes/Game1.unity
+    path: Assets/Objects/Scenes/Game1.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/Scenes/LogicalGame.unity
+    path: Assets/Objects/Scenes/LogicalGame.unity
     guid: 92a418a7d358a674697b9efef2f93954
   - enabled: 1
-    path: Assets/Scenes/Tutorial/TutorialScene.unity
+    path: Assets/Objects/Scenes/Tutorial/TutorialScene.unity
     guid: f7caf9e81488bab4b9b06a036d4a4342
   - enabled: 1
-    path: Assets/Scenes/Tutorial/Game1-Tut.unity
+    path: Assets/Objects/Scenes/Tutorial/Game1-Tut.unity
     guid: 5cdaca0270945eb4099805b792b153e8
   - enabled: 1
-    path: Assets/Scenes/Tutorial/LogicalGame-Tut.unity
+    path: Assets/Objects/Scenes/Tutorial/LogicalGame-Tut.unity
     guid: ee0acb8119a57284895f35f5a27b74e1
   - enabled: 1
-    path: Assets/Scenes/Level 1/Game1 - 1.unity
+    path: Assets/Objects/Scenes/Level 1/Game1 - 1.unity
     guid: e98ced62a7bcab049afd470f98bdf818
   - enabled: 1
-    path: Assets/Scenes/Level2/LogicalGame - 2.unity
+    path: Assets/Objects/Scenes/Level2/LogicalGame - 2.unity
     guid: 24b39f63a6dafc34e9d6c3010db46747
+  - enabled: 1
+    path: Assets/Objects/Scenes/Level2/Game1-2.unity
+    guid: 589507435019c4c4b89604bd10ff83ca
+  - enabled: 1
+    path: Assets/Objects/Scenes/Level 1/LogicalGame - 1.unity
+    guid: 4332f85ec247e874ba7dff875ad3ff75
+  - enabled: 1
+    path: Assets/Objects/Scenes/Level 1/Zadavani1.unity
+    guid: f4881b794aa8c51468c5a9a8dbb86552
+  - enabled: 1
+    path: Assets/Objects/Scenes/Level2/Zadavani2.unity
+    guid: 68e3671c46eb0ff49ac692c516fcd03f
   m_configObjects: {}

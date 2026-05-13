@@ -6,22 +6,62 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
-    public Exit exit;
     public GameObject spawnMenu;
+    public bool pause = false;
 
-    public void ContinueGame()
-    {   
-        Time.timeScale = 1f;
-        exit.pause = false;
-        Destroy(spawnMenu);
-        Debug.Log("pauza klik");
+    [SerializeField] private GameObject prefab;
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (!pause)
+            {
+                PauseGame();
+            }
+            else
+            {
+                ResumeGame();
+            }
+        }
     }
+
+
 
     public void ExitScene()
     {
-        SceneManager.LoadScene("Menu");
         Time.timeScale = 1f;
+        GameObject temp = new GameObject();
+        DontDestroyOnLoad(temp);
+
+        Scene ddolScene = temp.scene;
+
+        foreach (GameObject obj in ddolScene.GetRootGameObjects())
+        {
+            Destroy(obj);
+        }
+        SceneManager.LoadScene("Menu");
+    }
+
+
+    public void PauseGame()
+    {
+        Time.timeScale = 0f;
+
+        pause = true;
+
+        spawnMenu = Instantiate(prefab);
+    }
+
+    public void ResumeGame()
+    {
+        Time.timeScale = 1f;
+
+        pause = false;
+
+
+
+        Destroy(spawnMenu);
 
     }
 

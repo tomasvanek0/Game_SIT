@@ -20,6 +20,7 @@ public class SceneLoaderT : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
         time = Random.Range(20, 21);
         StartCoroutine(AfterTime());
     }
@@ -28,6 +29,7 @@ public class SceneLoaderT : MonoBehaviour
         yield return new WaitForSeconds(time); // 5 sekund
         SceneManager.LoadScene("Menu");
         GameManager.Instance.RemoveScore();
+        Destroy(GameObject.FindWithTag("GameManager"));
 
 
     }

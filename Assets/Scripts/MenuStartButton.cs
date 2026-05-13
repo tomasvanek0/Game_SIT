@@ -8,6 +8,7 @@ public class MenuStartButton : MonoBehaviour
     
     public GameObject LevelSelector;
     public GameObject uvodniMenu;
+    public GameObject controls;
     GameManager gameManager;
 
  
@@ -33,5 +34,21 @@ public class MenuStartButton : MonoBehaviour
         Destroy(LevelSelector);
         Instantiate(uvodniMenu);
         
+    }
+    public void StartFullGame(string load)
+    {
+        SceneManager.LoadScene(load);
+    }
+
+    public void Controls()
+    {
+        Instantiate(controls);
+        Destroy(uvodniMenu );
+    }
+
+    public void ExitControls()
+    {
+        Destroy(controls);
+        Instantiate(uvodniMenu);
     }
 }
